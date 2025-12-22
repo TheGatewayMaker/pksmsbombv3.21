@@ -229,12 +229,12 @@ export default function Home() {
       </section>
 
       {/* CTA Section */}
-      <section className="bg-gradient-to-r from-orange-600 via-red-600 to-orange-600 my-20">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-28 text-center">
-          <h2 className="text-6xl md:text-7xl font-black text-white mb-8">
+      <section className="bg-gradient-to-r from-orange-600 via-red-600 to-orange-600 my-16 lg:my-20">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-28 text-center">
+          <h2 className="text-4xl md:text-5xl lg:text-6xl font-black text-white mb-6 lg:mb-8">
             Ready to Get Started?
           </h2>
-          <p className="text-2xl text-white/95 mb-12 max-w-2xl mx-auto leading-relaxed font-semibold">
+          <p className="text-base md:text-lg lg:text-xl text-white/95 mb-8 lg:mb-12 max-w-2xl mx-auto leading-relaxed font-medium">
             Download our tool today and start pranking your friends with
             unlimited SMS messages. It's easy, secure, and completely anonymous.
           </p>
