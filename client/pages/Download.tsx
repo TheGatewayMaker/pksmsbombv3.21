@@ -36,10 +36,10 @@ export default function DownloadPage() {
         <div className="bg-gradient-to-r from-yellow-500/20 to-amber-500/20 border-2 border-yellow-500/50 rounded-2xl p-8 mb-16 flex gap-6">
           <AlertTriangle className="w-8 h-8 text-yellow-400 flex-shrink-0 mt-1" />
           <div>
-            <h3 className="font-black text-yellow-300 mb-3 text-xl">
+            <h3 className="font-black text-yellow-300 mb-3 text-2xl lg:text-3xl">
               Important: Chrome Browser Required
             </h3>
-            <p className="text-yellow-100 text-lg font-semibold">
+            <p className="text-yellow-100 text-base lg:text-lg font-semibold">
               Please make sure to have Chrome Browser installed on your system
               before using the tool. The application requires Chrome to function
               properly.
