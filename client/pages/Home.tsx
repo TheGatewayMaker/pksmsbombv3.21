@@ -157,70 +157,70 @@ export default function Home() {
           <table className="w-full">
             <thead>
               <tr className="bg-gradient-to-r from-orange-600/30 via-red-600/30 to-orange-600/30 border-b border-orange-500/40">
-                <th className="px-6 lg:px-8 py-6 text-left font-black text-slate-100 text-sm lg:text-lg">
+                <th className="px-4 sm:px-6 lg:px-8 py-4 sm:py-6 text-left font-black text-slate-100 text-xs sm:text-sm lg:text-lg">
                   SMS Package
                 </th>
-                <th className="px-6 lg:px-8 py-6 text-center font-black text-slate-100 text-sm lg:text-lg">
+                <th className="px-4 sm:px-6 lg:px-8 py-4 sm:py-6 text-center font-black text-slate-100 text-xs sm:text-sm lg:text-lg">
                   Price (PKR)
                 </th>
-                <th className="px-6 lg:px-8 py-6 text-center font-black text-slate-100 text-sm lg:text-lg">
+                <th className="px-4 sm:px-6 lg:px-8 py-4 sm:py-6 text-center font-black text-slate-100 text-xs sm:text-sm lg:text-lg">
                   Per SMS
                 </th>
               </tr>
             </thead>
             <tbody className="divide-y divide-orange-500/20">
               <tr className="hover:bg-orange-500/15 transition-all duration-300 group cursor-pointer">
-                <td className="px-6 lg:px-8 py-5 font-bold text-slate-200 text-sm lg:text-base group-hover:text-slate-100 transition-colors">
+                <td className="px-4 sm:px-6 lg:px-8 py-4 sm:py-5 font-bold text-slate-200 text-xs sm:text-sm lg:text-base group-hover:text-slate-100 transition-colors">
                   100 SMS
                 </td>
-                <td className="px-6 lg:px-8 py-5 text-center font-black text-orange-400 text-lg lg:text-2xl group-hover:text-orange-300 transition-colors">
+                <td className="px-4 sm:px-6 lg:px-8 py-4 sm:py-5 text-center font-black text-orange-400 text-sm sm:text-lg lg:text-2xl group-hover:text-orange-300 transition-colors">
                   350 PKR
                 </td>
-                <td className="px-6 lg:px-8 py-5 text-center text-slate-300 text-sm lg:text-base font-semibold group-hover:text-slate-200 transition-colors">
+                <td className="px-4 sm:px-6 lg:px-8 py-4 sm:py-5 text-center text-slate-300 text-xs sm:text-sm lg:text-base font-semibold group-hover:text-slate-200 transition-colors">
                   3.5 PKR
                 </td>
               </tr>
               <tr className="bg-orange-500/8 hover:bg-orange-500/20 transition-all duration-300 group cursor-pointer">
-                <td className="px-6 lg:px-8 py-5 font-bold text-slate-200 text-sm lg:text-base group-hover:text-slate-100 transition-colors">
+                <td className="px-4 sm:px-6 lg:px-8 py-4 sm:py-5 font-bold text-slate-200 text-xs sm:text-sm lg:text-base group-hover:text-slate-100 transition-colors">
                   250 SMS
                 </td>
-                <td className="px-6 lg:px-8 py-5 text-center font-black text-orange-400 text-lg lg:text-2xl group-hover:text-orange-300 transition-colors">
+                <td className="px-4 sm:px-6 lg:px-8 py-4 sm:py-5 text-center font-black text-orange-400 text-sm sm:text-lg lg:text-2xl group-hover:text-orange-300 transition-colors">
                   800 PKR
                 </td>
-                <td className="px-6 lg:px-8 py-5 text-center text-slate-300 text-sm lg:text-base font-semibold group-hover:text-slate-200 transition-colors">
+                <td className="px-4 sm:px-6 lg:px-8 py-4 sm:py-5 text-center text-slate-300 text-xs sm:text-sm lg:text-base font-semibold group-hover:text-slate-200 transition-colors">
                   3.2 PKR
                 </td>
               </tr>
               <tr className="hover:bg-orange-500/15 transition-all duration-300 group cursor-pointer">
-                <td className="px-6 lg:px-8 py-5 font-bold text-slate-200 text-sm lg:text-base group-hover:text-slate-100 transition-colors">
+                <td className="px-4 sm:px-6 lg:px-8 py-4 sm:py-5 font-bold text-slate-200 text-xs sm:text-sm lg:text-base group-hover:text-slate-100 transition-colors">
                   400 SMS
                 </td>
-                <td className="px-6 lg:px-8 py-5 text-center font-black text-orange-400 text-lg lg:text-2xl group-hover:text-orange-300 transition-colors">
+                <td className="px-4 sm:px-6 lg:px-8 py-4 sm:py-5 text-center font-black text-orange-400 text-sm sm:text-lg lg:text-2xl group-hover:text-orange-300 transition-colors">
                   1,200 PKR
                 </td>
-                <td className="px-6 lg:px-8 py-5 text-center text-slate-300 text-sm lg:text-base font-semibold group-hover:text-slate-200 transition-colors">
+                <td className="px-4 sm:px-6 lg:px-8 py-4 sm:py-5 text-center text-slate-300 text-xs sm:text-sm lg:text-base font-semibold group-hover:text-slate-200 transition-colors">
                   3.0 PKR
                 </td>
               </tr>
               <tr className="bg-orange-500/8 hover:bg-orange-500/20 transition-all duration-300 group cursor-pointer">
-                <td className="px-6 lg:px-8 py-5 font-bold text-slate-200 text-sm lg:text-base group-hover:text-slate-100 transition-colors">
+                <td className="px-4 sm:px-6 lg:px-8 py-4 sm:py-5 font-bold text-slate-200 text-xs sm:text-sm lg:text-base group-hover:text-slate-100 transition-colors">
                   1,000 SMS
                 </td>
-                <td className="px-6 lg:px-8 py-5 text-center font-black text-orange-400 text-lg lg:text-2xl group-hover:text-orange-300 transition-colors">
+                <td className="px-4 sm:px-6 lg:px-8 py-4 sm:py-5 text-center font-black text-orange-400 text-sm sm:text-lg lg:text-2xl group-hover:text-orange-300 transition-colors">
                   2,600 PKR
                 </td>
-                <td className="px-6 lg:px-8 py-5 text-center text-slate-300 text-sm lg:text-base font-semibold group-hover:text-slate-200 transition-colors">
+                <td className="px-4 sm:px-6 lg:px-8 py-4 sm:py-5 text-center text-slate-300 text-xs sm:text-sm lg:text-base font-semibold group-hover:text-slate-200 transition-colors">
                   2.6 PKR
                 </td>
               </tr>
               <tr className="hover:bg-orange-500/15 transition-all duration-300 group cursor-pointer">
-                <td className="px-6 lg:px-8 py-5 font-bold text-slate-200 text-sm lg:text-base group-hover:text-slate-100 transition-colors">
+                <td className="px-4 sm:px-6 lg:px-8 py-4 sm:py-5 font-bold text-slate-200 text-xs sm:text-sm lg:text-base group-hover:text-slate-100 transition-colors">
                   2,000 SMS
                 </td>
-                <td className="px-6 lg:px-8 py-5 text-center font-black text-orange-400 text-lg lg:text-2xl group-hover:text-orange-300 transition-colors">
+                <td className="px-4 sm:px-6 lg:px-8 py-4 sm:py-5 text-center font-black text-orange-400 text-sm sm:text-lg lg:text-2xl group-hover:text-orange-300 transition-colors">
                   4,800 PKR
                 </td>
-                <td className="px-6 lg:px-8 py-5 text-center text-slate-300 text-sm lg:text-base font-semibold group-hover:text-slate-200 transition-colors">
+                <td className="px-4 sm:px-6 lg:px-8 py-4 sm:py-5 text-center text-slate-300 text-xs sm:text-sm lg:text-base font-semibold group-hover:text-slate-200 transition-colors">
                   2.4 PKR
                 </td>
               </tr>
