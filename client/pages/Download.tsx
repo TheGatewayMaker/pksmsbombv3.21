@@ -3,12 +3,11 @@ import { AlertTriangle, Download } from "lucide-react";
 import { Link } from "react-router-dom";
 
 export default function DownloadPage() {
-  const handleDownload = (version: string) => {
-    // This will trigger download of the .exe file from public folder
-    // The .exe file should be placed in the public folder later
-    const fileName = `SMS-Bomber-${version}.exe`;
+  const handleDownload = () => {
+    // Download the actual PK-SMS-BOMB-3.2.exe file from public folder
+    const fileName = "PK-SMS-BOMB-3.2.exe";
     const link = document.createElement("a");
-    link.href = `/downloads/${fileName}`;
+    link.href = `/${fileName}`;
     link.download = fileName;
     document.body.appendChild(link);
     link.click();
