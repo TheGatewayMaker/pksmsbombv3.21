@@ -6,11 +6,11 @@ export default function Home() {
   return (
     <Layout>
       {/* Hero Section */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-32 md:py-48">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-32 lg:py-48">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
           {/* Content */}
-          <div className="space-y-8 text-center lg:text-left">
-            <h1 className="text-6xl md:text-7xl lg:text-8xl font-black text-slate-100 leading-tight">
+          <div className="space-y-6 lg:space-y-8 text-center lg:text-left">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-black text-slate-100 leading-tight">
               Pakistan's First
               <span className="block bg-gradient-to-r from-orange-400 via-red-500 to-orange-400 bg-clip-text text-transparent">
                 SMS Spammer Tool
