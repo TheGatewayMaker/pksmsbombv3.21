@@ -233,6 +233,28 @@ export default function PricingPage() {
             ))}
           </div>
         </div>
+
+        {/* SEO Hidden Content */}
+        <div className="hidden mt-8" data-seo="true" role="doc-note">
+          <h2>SMS Bomber Pricing and Packages</h2>
+          <p>
+            Transparent SMS Bomber pricing with no hidden fees. Choose from our SMS Spammer packages:
+            SMS Bomber 100, SMS Bomber 250, SMS Bomber 400, SMS Bomber 1000, or SMS Bomber 2000 SMS.
+          </p>
+          <p>
+            Our SMS Bombing service offers the best rates per SMS. Whether you need a fast SMS bomber prank,
+            unlimited SMS messages, or bulk SMS bombing, we have affordable packages for everyone.
+          </p>
+          <p>
+            Get SMS Bomber online with flexible payment options. All packages include anonymous SMS delivery
+            and support for all Pakistani operators: JAZZ, ZONG, UFONE, WARID, TELENOR.
+            100% success rate guaranteed for every SMS Spammer operation.
+          </p>
+          <p>
+            Free SMS Bomber consultation available. Contact us for custom SMS Bombing packages tailored to your needs.
+            Best SMS Bomber service with transparent pricing and instant activation after payment.
+          </p>
+        </div>
       </section>
     </Layout>
   );
