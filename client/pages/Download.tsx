@@ -21,7 +21,10 @@ export default function DownloadPage() {
         {/* Header */}
         <div className="text-center mb-12 lg:mb-16">
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-black text-slate-100 mb-4 leading-tight">
-            Download from<span className="block bg-gradient-to-r from-orange-400 via-red-500 to-orange-400 bg-clip-text text-transparent">Below</span>
+            Download from
+            <span className="block bg-gradient-to-r from-orange-400 via-red-500 to-orange-400 bg-clip-text text-transparent">
+              Below
+            </span>
           </h1>
 
           <p className="text-base md:text-lg lg:text-xl text-slate-300 mt-8 font-medium">

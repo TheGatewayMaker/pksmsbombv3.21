@@ -28,7 +28,8 @@ export default function Home() {
                 alt="SMS Bomber Pumpkin"
                 className="w-full h-auto drop-shadow-2xl"
                 style={{
-                  filter: "drop-shadow(0 0px 100px rgba(249, 115, 22, 0.8)), drop-shadow(0 0px 60px rgba(239, 68, 68, 0.6)), drop-shadow(0 0px 30px rgba(249, 115, 22, 0.4))",
+                  filter:
+                    "drop-shadow(0 0px 100px rgba(249, 115, 22, 0.8)), drop-shadow(0 0px 60px rgba(239, 68, 68, 0.6)), drop-shadow(0 0px 30px rgba(249, 115, 22, 0.4))",
                 }}
               />
             </div>
