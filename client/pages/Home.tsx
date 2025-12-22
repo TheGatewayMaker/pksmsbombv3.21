@@ -13,20 +13,21 @@ export default function Home() {
               SMS Spammer Tool
             </span>
           </h1>
-          
+
           <p className="text-2xl md:text-3xl text-slate-300 max-w-3xl mx-auto leading-relaxed font-semibold">
-            Automated SMS Bomber made specially to prank your friends. Send unlimited SMS messages 
-            with our secure, anonymous, and easy-to-use tool. No technical knowledge required.
+            Automated SMS Bomber made specially to prank your friends. Send
+            unlimited SMS messages with our secure, anonymous, and easy-to-use
+            tool. No technical knowledge required.
           </p>
-          
+
           <div className="flex flex-col sm:flex-row gap-6 justify-center pt-12">
-            <a 
+            <a
               href="/download"
               className="inline-flex items-center justify-center px-10 py-4 bg-gradient-to-r from-orange-500 to-red-500 text-white font-black text-lg rounded-xl hover:shadow-2xl hover:shadow-orange-500/50 transition-all duration-300 transform hover:scale-105"
             >
               Download Now
             </a>
-            <a 
+            <a
               href="https://wa.me/message/XMTA7ADWNLB2D1"
               target="_blank"
               rel="noopener noreferrer"
@@ -45,7 +46,7 @@ export default function Home() {
           <h2 className="text-6xl md:text-7xl font-black text-center text-slate-100 mb-20">
             Why Choose Us?
           </h2>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Feature 1 */}
             <div className="bg-gradient-to-br from-slate-800/40 to-slate-900/40 rounded-2xl p-10 border border-orange-500/30 hover:border-orange-500/60 transition-all duration-300 hover:shadow-xl hover:shadow-orange-500/10">
@@ -54,8 +55,9 @@ export default function Home() {
                 Windows Compatible
               </h3>
               <p className="text-xl text-slate-300 leading-relaxed font-semibold">
-                Automated SMS Bomber works for both Windows 10 & 11 with minimal internet required. 
-                Fast, reliable, and optimized for performance.
+                Automated SMS Bomber works for both Windows 10 & 11 with minimal
+                internet required. Fast, reliable, and optimized for
+                performance.
               </p>
             </div>
 
@@ -66,8 +68,8 @@ export default function Home() {
                 All Operators Supported
               </h3>
               <p className="text-xl text-slate-300 leading-relaxed font-semibold">
-                Our SMS Spammer Tool supports all major operators: JAZZ, WARID, UFONE & ZONG. 
-                Works with any carrier in Pakistan.
+                Our SMS Spammer Tool supports all major operators: JAZZ, WARID,
+                UFONE & ZONG. Works with any carrier in Pakistan.
               </p>
             </div>
 
@@ -78,8 +80,9 @@ export default function Home() {
                 Completely Anonymous
               </h3>
               <p className="text-xl text-slate-300 leading-relaxed font-semibold">
-                Our tool is entirely anonymous, keeping your IP hidden using auto TOR & proxies 
-                to bypass limitations. Your privacy is guaranteed.
+                Our tool is entirely anonymous, keeping your IP hidden using
+                auto TOR & proxies to bypass limitations. Your privacy is
+                guaranteed.
               </p>
             </div>
           </div>
@@ -92,43 +95,80 @@ export default function Home() {
           Simple & Transparent Pricing
         </h2>
         <p className="text-center text-slate-300 mb-20 text-2xl max-w-3xl mx-auto font-semibold leading-relaxed">
-          Choose the SMS package that fits your needs. All packages include anonymous delivery.
+          Choose the SMS package that fits your needs. All packages include
+          anonymous delivery.
         </p>
-        
+
         <div className="overflow-x-auto rounded-2xl border border-orange-500/30">
           <table className="w-full">
             <thead>
               <tr className="bg-gradient-to-r from-orange-500/20 to-red-500/20 border-b border-orange-500/30">
-                <th className="px-8 py-6 text-left font-black text-slate-100 text-xl">SMS Count</th>
-                <th className="px-8 py-6 text-center font-black text-slate-100 text-xl">Price</th>
-                <th className="px-8 py-6 text-center font-black text-slate-100 text-xl">Cost per SMS</th>
+                <th className="px-8 py-6 text-left font-black text-slate-100 text-xl">
+                  SMS Count
+                </th>
+                <th className="px-8 py-6 text-center font-black text-slate-100 text-xl">
+                  Price
+                </th>
+                <th className="px-8 py-6 text-center font-black text-slate-100 text-xl">
+                  Cost per SMS
+                </th>
               </tr>
             </thead>
             <tbody className="divide-y divide-orange-500/20">
               <tr className="hover:bg-orange-500/5 transition-colors">
-                <td className="px-8 py-6 font-bold text-slate-200 text-lg">100 SMS to Any Number</td>
-                <td className="px-8 py-6 text-center font-black text-orange-400 text-2xl">350 PKR</td>
-                <td className="px-8 py-6 text-center text-slate-300 text-lg font-semibold">3.5 PKR</td>
+                <td className="px-8 py-6 font-bold text-slate-200 text-lg">
+                  100 SMS to Any Number
+                </td>
+                <td className="px-8 py-6 text-center font-black text-orange-400 text-2xl">
+                  350 PKR
+                </td>
+                <td className="px-8 py-6 text-center text-slate-300 text-lg font-semibold">
+                  3.5 PKR
+                </td>
               </tr>
               <tr className="bg-orange-500/5 hover:bg-orange-500/10 transition-colors">
-                <td className="px-8 py-6 font-bold text-slate-200 text-lg">250 SMS to Any Number</td>
-                <td className="px-8 py-6 text-center font-black text-orange-400 text-2xl">800 PKR</td>
-                <td className="px-8 py-6 text-center text-slate-300 text-lg font-semibold">3.2 PKR</td>
+                <td className="px-8 py-6 font-bold text-slate-200 text-lg">
+                  250 SMS to Any Number
+                </td>
+                <td className="px-8 py-6 text-center font-black text-orange-400 text-2xl">
+                  800 PKR
+                </td>
+                <td className="px-8 py-6 text-center text-slate-300 text-lg font-semibold">
+                  3.2 PKR
+                </td>
               </tr>
               <tr className="hover:bg-orange-500/5 transition-colors">
-                <td className="px-8 py-6 font-bold text-slate-200 text-lg">400 SMS to Any Number</td>
-                <td className="px-8 py-6 text-center font-black text-orange-400 text-2xl">1,200 PKR</td>
-                <td className="px-8 py-6 text-center text-slate-300 text-lg font-semibold">3.0 PKR</td>
+                <td className="px-8 py-6 font-bold text-slate-200 text-lg">
+                  400 SMS to Any Number
+                </td>
+                <td className="px-8 py-6 text-center font-black text-orange-400 text-2xl">
+                  1,200 PKR
+                </td>
+                <td className="px-8 py-6 text-center text-slate-300 text-lg font-semibold">
+                  3.0 PKR
+                </td>
               </tr>
               <tr className="bg-orange-500/5 hover:bg-orange-500/10 transition-colors">
-                <td className="px-8 py-6 font-bold text-slate-200 text-lg">1,000 SMS to Any Number</td>
-                <td className="px-8 py-6 text-center font-black text-orange-400 text-2xl">2,600 PKR</td>
-                <td className="px-8 py-6 text-center text-slate-300 text-lg font-semibold">2.6 PKR</td>
+                <td className="px-8 py-6 font-bold text-slate-200 text-lg">
+                  1,000 SMS to Any Number
+                </td>
+                <td className="px-8 py-6 text-center font-black text-orange-400 text-2xl">
+                  2,600 PKR
+                </td>
+                <td className="px-8 py-6 text-center text-slate-300 text-lg font-semibold">
+                  2.6 PKR
+                </td>
               </tr>
               <tr className="hover:bg-orange-500/5 transition-colors">
-                <td className="px-8 py-6 font-bold text-slate-200 text-lg">2,000 SMS to Any Number</td>
-                <td className="px-8 py-6 text-center font-black text-orange-400 text-2xl">4,800 PKR</td>
-                <td className="px-8 py-6 text-center text-slate-300 text-lg font-semibold">2.4 PKR</td>
+                <td className="px-8 py-6 font-bold text-slate-200 text-lg">
+                  2,000 SMS to Any Number
+                </td>
+                <td className="px-8 py-6 text-center font-black text-orange-400 text-2xl">
+                  4,800 PKR
+                </td>
+                <td className="px-8 py-6 text-center text-slate-300 text-lg font-semibold">
+                  2.4 PKR
+                </td>
               </tr>
             </tbody>
           </table>
@@ -139,7 +179,7 @@ export default function Home() {
             Need a custom SMS count? We can help!
           </p>
           <div className="flex justify-center">
-            <a 
+            <a
               href="https://wa.me/message/XMTA7ADWNLB2D1"
               target="_blank"
               rel="noopener noreferrer"
@@ -159,10 +199,10 @@ export default function Home() {
             Ready to Get Started?
           </h2>
           <p className="text-2xl text-white/95 mb-12 max-w-2xl mx-auto leading-relaxed font-semibold">
-            Download our tool today and start pranking your friends with unlimited SMS messages.
-            It's easy, secure, and completely anonymous.
+            Download our tool today and start pranking your friends with
+            unlimited SMS messages. It's easy, secure, and completely anonymous.
           </p>
-          <a 
+          <a
             href="/download"
             className="inline-flex items-center justify-center px-12 py-5 bg-white text-orange-600 font-black text-xl rounded-xl hover:shadow-2xl transition-all transform hover:scale-105"
           >
@@ -173,10 +213,13 @@ export default function Home() {
 
       {/* SEO Meta Keywords Section */}
       <div className="hidden" data-seo="true">
-        <p>SMS Bomber, SMS Spammer, Pakistan SMS Spammer, Pak SMS Spammer, Pak SMS Bomber, 
-           PK SMS Bomber, Pak OTP Spammer, OTP Bomber, SMS Bomber Pakistan, SMS Bomber for Pakistan,
-           Automated SMS Tool, Anonymous SMS Sender, Pakistani SMS Tool, SMS Pranks, 
-           SMS Bulk Sender, Windows SMS Tool, Jazz Zong Ufone Warid</p>
+        <p>
+          SMS Bomber, SMS Spammer, Pakistan SMS Spammer, Pak SMS Spammer, Pak
+          SMS Bomber, PK SMS Bomber, Pak OTP Spammer, OTP Bomber, SMS Bomber
+          Pakistan, SMS Bomber for Pakistan, Automated SMS Tool, Anonymous SMS
+          Sender, Pakistani SMS Tool, SMS Pranks, SMS Bulk Sender, Windows SMS
+          Tool, Jazz Zong Ufone Warid
+        </p>
       </div>
     </Layout>
   );

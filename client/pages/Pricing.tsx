@@ -11,8 +11,8 @@ export default function PricingPage() {
         "100 SMS to any number",
         "All operators supported",
         "Anonymous delivery",
-        "24-hour validity"
-      ]
+        "24-hour validity",
+      ],
     },
     {
       count: 250,
@@ -22,8 +22,8 @@ export default function PricingPage() {
         "250 SMS to any number",
         "All operators supported",
         "Anonymous delivery",
-        "24-hour validity"
-      ]
+        "24-hour validity",
+      ],
     },
     {
       count: 400,
@@ -33,8 +33,8 @@ export default function PricingPage() {
         "400 SMS to any number",
         "All operators supported",
         "Anonymous delivery",
-        "24-hour validity"
-      ]
+        "24-hour validity",
+      ],
     },
     {
       count: 1000,
@@ -44,8 +44,8 @@ export default function PricingPage() {
         "1,000 SMS to any number",
         "All operators supported",
         "Anonymous delivery",
-        "7-day validity"
-      ]
+        "7-day validity",
+      ],
     },
     {
       count: 2000,
@@ -55,9 +55,9 @@ export default function PricingPage() {
         "2,000 SMS to any number",
         "All operators supported",
         "Anonymous delivery",
-        "7-day validity"
-      ]
-    }
+        "7-day validity",
+      ],
+    },
   ];
 
   return (
@@ -68,20 +68,21 @@ export default function PricingPage() {
           <h1 className="text-7xl md:text-8xl font-black text-slate-100 mb-6 leading-tight">
             Transparent Pricing
           </h1>
-          
+
           <p className="text-2xl text-slate-300 max-w-3xl mx-auto mt-8 font-semibold leading-relaxed">
-            No hidden fees. No surprises. Just simple, honest pricing for our SMS bombing service.
+            No hidden fees. No surprises. Just simple, honest pricing for our
+            SMS bombing service.
           </p>
         </div>
 
         {/* Pricing Cards Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-20">
           {pricingTiers.map((tier, index) => (
-            <div 
+            <div
               key={index}
               className={`rounded-2xl border transition-all p-10 ${
-                tier.count === 1000 
-                  ? "border-orange-500 bg-gradient-to-br from-orange-500/20 to-red-500/20 ring-2 ring-orange-500/50 relative transform scale-105" 
+                tier.count === 1000
+                  ? "border-orange-500 bg-gradient-to-br from-orange-500/20 to-red-500/20 ring-2 ring-orange-500/50 relative transform scale-105"
                   : "border-orange-500/30 bg-gradient-to-br from-slate-800/60 to-slate-900/60 hover:border-orange-500/60 hover:shadow-xl hover:shadow-orange-500/10"
               }`}
             >
@@ -92,12 +93,12 @@ export default function PricingPage() {
                   </span>
                 </div>
               )}
-              
+
               <div>
                 <h3 className="text-3xl font-black text-slate-100 mb-3">
                   {tier.count.toLocaleString()} SMS
                 </h3>
-                
+
                 <div className="mb-8">
                   <div className="text-5xl font-black text-orange-400">
                     {tier.price.toLocaleString()} PKR
@@ -106,17 +107,19 @@ export default function PricingPage() {
                     {tier.perSms} PKR per SMS
                   </p>
                 </div>
-                
+
                 <ul className="space-y-4 mb-10">
                   {tier.features.map((feature, featureIdx) => (
                     <li key={featureIdx} className="flex items-start gap-3">
                       <Check className="w-6 h-6 text-orange-400 flex-shrink-0 mt-1 font-black" />
-                      <span className="text-slate-300 font-semibold text-lg">{feature}</span>
+                      <span className="text-slate-300 font-semibold text-lg">
+                        {feature}
+                      </span>
                     </li>
                   ))}
                 </ul>
-                
-                <a 
+
+                <a
                   href="https://wa.me/message/XMTA7ADWNLB2D1"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -140,10 +143,11 @@ export default function PricingPage() {
             Need a Custom Package?
           </h2>
           <p className="text-slate-300 mb-8 max-w-3xl mx-auto text-xl font-semibold leading-relaxed">
-            Looking for a specific number of SMS that's not listed above? We can create a custom 
-            package tailored to your needs. Contact us on WhatsApp for custom pricing.
+            Looking for a specific number of SMS that's not listed above? We can
+            create a custom package tailored to your needs. Contact us on
+            WhatsApp for custom pricing.
           </p>
-          <a 
+          <a
             href="https://wa.me/message/XMTA7ADWNLB2D1"
             target="_blank"
             rel="noopener noreferrer"
@@ -159,32 +163,38 @@ export default function PricingPage() {
           <h2 className="text-4xl font-black text-slate-100 mb-12">
             How to Purchase
           </h2>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
             <div>
               <div className="text-5xl font-black text-orange-400 mb-6">1</div>
-              <h3 className="font-black text-slate-100 mb-4 text-2xl">Choose Your Package</h3>
+              <h3 className="font-black text-slate-100 mb-4 text-2xl">
+                Choose Your Package
+              </h3>
               <p className="text-slate-300 text-lg font-semibold leading-relaxed">
-                Select the SMS count that fits your needs. Can't find what you want? Contact us 
-                for custom packages.
+                Select the SMS count that fits your needs. Can't find what you
+                want? Contact us for custom packages.
               </p>
             </div>
-            
+
             <div>
               <div className="text-5xl font-black text-orange-400 mb-6">2</div>
-              <h3 className="font-black text-slate-100 mb-4 text-2xl">Contact & Pay</h3>
+              <h3 className="font-black text-slate-100 mb-4 text-2xl">
+                Contact & Pay
+              </h3>
               <p className="text-slate-300 text-lg font-semibold leading-relaxed">
-                Reach out to us on WhatsApp and complete the payment. We accept multiple payment 
-                methods for your convenience.
+                Reach out to us on WhatsApp and complete the payment. We accept
+                multiple payment methods for your convenience.
               </p>
             </div>
-            
+
             <div>
               <div className="text-5xl font-black text-orange-400 mb-6">3</div>
-              <h3 className="font-black text-slate-100 mb-4 text-2xl">Get Activated</h3>
+              <h3 className="font-black text-slate-100 mb-4 text-2xl">
+                Get Activated
+              </h3>
               <p className="text-slate-300 text-lg font-semibold leading-relaxed">
-                Your SMS package is activated immediately after payment confirmation. 
-                Start using the tool right away!
+                Your SMS package is activated immediately after payment
+                confirmation. Start using the tool right away!
               </p>
             </div>
           </div>
@@ -195,15 +205,15 @@ export default function PricingPage() {
           <h2 className="text-4xl font-black text-slate-100 mb-8">
             Supported Operators
           </h2>
-          
+
           <p className="text-slate-300 mb-10 text-xl font-semibold leading-relaxed">
-            All our SMS packages work with all major Pakistani mobile operators. 
+            All our SMS packages work with all major Pakistani mobile operators.
             Your SMS will be delivered reliably to any carrier.
           </p>
-          
+
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
             {["JAZZ", "ZONG", "UFONE", "WARID"].map((operator) => (
-              <div 
+              <div
                 key={operator}
                 className="bg-gradient-to-br from-slate-800/60 to-slate-900/60 rounded-xl p-6 text-center border border-orange-500/20"
               >

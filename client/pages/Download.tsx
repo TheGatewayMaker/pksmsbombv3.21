@@ -26,7 +26,7 @@ export default function DownloadPage() {
               Downloading
             </span>
           </h1>
-          
+
           <p className="text-2xl text-slate-300 mt-8 font-semibold">
             Download for your compatible Windows version below
           </p>
@@ -40,8 +40,9 @@ export default function DownloadPage() {
               Important: Chrome Browser Required
             </h3>
             <p className="text-yellow-100 text-lg font-semibold">
-              Please make sure to have Chrome Browser installed on your system before using the tool. 
-              The application requires Chrome to function properly.
+              Please make sure to have Chrome Browser installed on your system
+              before using the tool. The application requires Chrome to function
+              properly.
             </p>
           </div>
         </div>
@@ -101,10 +102,11 @@ export default function DownloadPage() {
             Need to Activate Features?
           </h3>
           <p className="text-slate-300 mb-8 text-xl font-semibold leading-relaxed">
-            To use all features of the SMS Bomber tool, you'll need to purchase a license key. 
-            Visit our License page to see all available plans and get your key.
+            To use all features of the SMS Bomber tool, you'll need to purchase
+            a license key. Visit our License page to see all available plans and
+            get your key.
           </p>
-          <Link 
+          <Link
             to="/license"
             className="inline-flex items-center justify-center px-10 py-4 bg-gradient-to-r from-orange-500 to-red-500 text-white font-black text-lg rounded-xl hover:shadow-lg hover:shadow-orange-500/50 transition-all"
           >
@@ -119,20 +121,37 @@ export default function DownloadPage() {
           </h3>
           <ol className="space-y-6 text-slate-300">
             <li className="flex gap-6">
-              <span className="font-black text-orange-400 text-2xl min-w-fit">1.</span>
-              <span className="text-xl font-semibold leading-relaxed">Download the .exe file for your Windows version above</span>
+              <span className="font-black text-orange-400 text-2xl min-w-fit">
+                1.
+              </span>
+              <span className="text-xl font-semibold leading-relaxed">
+                Download the .exe file for your Windows version above
+              </span>
             </li>
             <li className="flex gap-6">
-              <span className="font-black text-orange-400 text-2xl min-w-fit">2.</span>
-              <span className="text-xl font-semibold leading-relaxed">Make sure Chrome browser is installed on your system</span>
+              <span className="font-black text-orange-400 text-2xl min-w-fit">
+                2.
+              </span>
+              <span className="text-xl font-semibold leading-relaxed">
+                Make sure Chrome browser is installed on your system
+              </span>
             </li>
             <li className="flex gap-6">
-              <span className="font-black text-orange-400 text-2xl min-w-fit">3.</span>
-              <span className="text-xl font-semibold leading-relaxed">Run the installer and follow the on-screen instructions</span>
+              <span className="font-black text-orange-400 text-2xl min-w-fit">
+                3.
+              </span>
+              <span className="text-xl font-semibold leading-relaxed">
+                Run the installer and follow the on-screen instructions
+              </span>
             </li>
             <li className="flex gap-6">
-              <span className="font-black text-orange-400 text-2xl min-w-fit">4.</span>
-              <span className="text-xl font-semibold leading-relaxed">Launch the application and purchase a license to unlock full features</span>
+              <span className="font-black text-orange-400 text-2xl min-w-fit">
+                4.
+              </span>
+              <span className="text-xl font-semibold leading-relaxed">
+                Launch the application and purchase a license to unlock full
+                features
+              </span>
             </li>
           </ol>
         </div>

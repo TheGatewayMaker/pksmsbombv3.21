@@ -4,7 +4,10 @@ export default function Header() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 backdrop-blur-2xl bg-gradient-to-b from-slate-900/95 to-slate-900/80 border-b border-orange-500/20">
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
-        <Link to="/" className="flex items-center gap-3 hover:opacity-80 transition-opacity">
+        <Link
+          to="/"
+          className="flex items-center gap-3 hover:opacity-80 transition-opacity"
+        >
           <img
             src="https://cdn.builder.io/api/v1/image/assets%2F21e53940686840dfab4f5a6e4a2a1205%2F0bf09163b43040bf9014564502559b38?format=webp&width=100"
             alt="SMS Bomber"
@@ -14,7 +17,7 @@ export default function Header() {
             SMS Bomber
           </div>
         </Link>
-        
+
         <ul className="flex items-center gap-8 text-base font-semibold">
           <li>
             <Link

@@ -26,8 +26,8 @@ const NotFound = () => {
           </h2>
 
           <p className="text-2xl text-slate-300 max-w-3xl mx-auto leading-relaxed font-semibold">
-            The page you're looking for doesn't exist. It might have been moved or deleted.
-            Let's get you back on track!
+            The page you're looking for doesn't exist. It might have been moved
+            or deleted. Let's get you back on track!
           </p>
 
           <div className="pt-12 flex justify-center">
