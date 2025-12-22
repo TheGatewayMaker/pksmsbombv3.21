@@ -1,5 +1,4 @@
 import Layout from "@/components/Layout";
-import OperatorsSlider from "@/components/OperatorsSlider";
 import { ExternalLink } from "lucide-react";
 
 export default function Home() {
