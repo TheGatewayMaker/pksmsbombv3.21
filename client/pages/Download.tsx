@@ -85,7 +85,7 @@ export default function DownloadPage() {
                 Compatible with Windows 11 (all versions)
               </p>
               <button
-                onClick={() => handleDownload("Windows-11")}
+                onClick={handleDownload}
                 className="inline-flex items-center justify-center w-full px-6 lg:px-8 py-4 bg-gradient-to-r from-orange-500 to-red-500 text-white font-black text-sm lg:text-base rounded-xl hover:shadow-lg hover:shadow-orange-500/50 transition-all transform hover:scale-105 whitespace-nowrap"
               >
                 <Download className="w-5 lg:w-6 h-5 lg:h-6 mr-2 lg:mr-3" />
