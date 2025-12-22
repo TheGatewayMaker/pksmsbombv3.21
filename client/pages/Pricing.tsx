@@ -116,7 +116,10 @@ export default function PricingPage() {
 
                 <ul className="space-y-3 sm:space-y-4 mb-8 sm:mb-10 flex-grow">
                   {tier.features.map((feature, featureIdx) => (
-                    <li key={featureIdx} className="flex items-start gap-2 sm:gap-3">
+                    <li
+                      key={featureIdx}
+                      className="flex items-start gap-2 sm:gap-3"
+                    >
                       <Check className="w-4 sm:w-5 lg:w-6 h-4 sm:h-5 lg:h-6 text-orange-400 flex-shrink-0 mt-1 font-black" />
                       <span className="text-slate-300 font-medium text-xs sm:text-sm lg:text-base">
                         {feature}
@@ -172,7 +175,9 @@ export default function PricingPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 sm:gap-10">
             <div className="text-center md:text-left">
-              <div className="text-4xl sm:text-5xl font-black text-orange-400 mb-4 sm:mb-6">1</div>
+              <div className="text-4xl sm:text-5xl font-black text-orange-400 mb-4 sm:mb-6">
+                1
+              </div>
               <h3 className="font-black text-slate-100 mb-3 sm:mb-4 text-xl sm:text-2xl">
                 Choose Your Package
               </h3>
@@ -183,7 +188,9 @@ export default function PricingPage() {
             </div>
 
             <div className="text-center md:text-left">
-              <div className="text-4xl sm:text-5xl font-black text-orange-400 mb-4 sm:mb-6">2</div>
+              <div className="text-4xl sm:text-5xl font-black text-orange-400 mb-4 sm:mb-6">
+                2
+              </div>
               <h3 className="font-black text-slate-100 mb-3 sm:mb-4 text-xl sm:text-2xl">
                 Contact & Pay
               </h3>
@@ -194,7 +201,9 @@ export default function PricingPage() {
             </div>
 
             <div className="text-center md:text-left">
-              <div className="text-4xl sm:text-5xl font-black text-orange-400 mb-4 sm:mb-6">3</div>
+              <div className="text-4xl sm:text-5xl font-black text-orange-400 mb-4 sm:mb-6">
+                3
+              </div>
               <h3 className="font-black text-slate-100 mb-3 sm:mb-4 text-xl sm:text-2xl">
                 Get Activated
               </h3>
@@ -238,29 +247,39 @@ export default function PricingPage() {
         <div className="hidden mt-8" data-seo="true" role="doc-note">
           <h2>SMS Bomber Pricing - Number Packages and SMS API Pakistan</h2>
           <p>
-            Transparent SMS Bomber pricing with no hidden fees. Choose from our SMS Spammer packages:
-            SMS Bomber 50, SMS Bomber 100, SMS Bomber 150, SMS Bomber 300, SMS Bomber 400, SMS Bomber 500,
-            SMS Bomber 1000, SMS Bomber 5000, SMS Bomber 10000, or SMS Bomber 2000+ SMS custom packages.
+            Transparent SMS Bomber pricing with no hidden fees. Choose from our
+            SMS Spammer packages: SMS Bomber 50, SMS Bomber 100, SMS Bomber 150,
+            SMS Bomber 300, SMS Bomber 400, SMS Bomber 500, SMS Bomber 1000, SMS
+            Bomber 5000, SMS Bomber 10000, or SMS Bomber 2000+ SMS custom
+            packages.
           </p>
           <p>
-            Our SMS Bombing service offers the best rates per SMS. Cheap SMS API Pakistan for bulk SMS operations.
-            Whether you need fast SMS bomber prank, unlimited SMS messages, bulk SMS spammer, or SMS API integration,
-            we have affordable packages for everyone. SMS Package pricing from 50 SMS to unlimited. Best SMS rates.
+            Our SMS Bombing service offers the best rates per SMS. Cheap SMS API
+            Pakistan for bulk SMS operations. Whether you need fast SMS bomber
+            prank, unlimited SMS messages, bulk SMS spammer, or SMS API
+            integration, we have affordable packages for everyone. SMS Package
+            pricing from 50 SMS to unlimited. Best SMS rates.
           </p>
           <p>
-            Get SMS Bomber online with flexible payment options. SMS Charges clear and transparent. All packages include anonymous SMS delivery
-            and support for all Pakistani operators: JAZZ, ZONG, UFONE, WARID, TELENOR.
-            100% success rate guaranteed for every SMS Spammer operation. SMS Service Pakistan certified.
+            Get SMS Bomber online with flexible payment options. SMS Charges
+            clear and transparent. All packages include anonymous SMS delivery
+            and support for all Pakistani operators: JAZZ, ZONG, UFONE, WARID,
+            TELENOR. 100% success rate guaranteed for every SMS Spammer
+            operation. SMS Service Pakistan certified.
           </p>
           <p>
-            SMS API Pakistan integration available. SMS Caster, SMS Punch, Web 2 SMS, and SMS Code support included.
-            Hamariweb SMS and SMS 2PK alternatives. SMS Alert and SMS Unsubscribe features. SMS Bill management included.
-            Bulk SMS API affordable pricing. Get SMS service code and SMS advance subscribe options.
+            SMS API Pakistan integration available. SMS Caster, SMS Punch, Web 2
+            SMS, and SMS Code support included. Hamariweb SMS and SMS 2PK
+            alternatives. SMS Alert and SMS Unsubscribe features. SMS Bill
+            management included. Bulk SMS API affordable pricing. Get SMS
+            service code and SMS advance subscribe options.
           </p>
           <p>
-            Free SMS Bomber consultation available. Custom SMS Bombing packages tailored to your needs.
-            Best SMS Bomber service with transparent pricing and instant activation after payment.
-            SMS Package options from 50 to 10000+ messages. Cheap SMS API pricing for developers and businesses.
+            Free SMS Bomber consultation available. Custom SMS Bombing packages
+            tailored to your needs. Best SMS Bomber service with transparent
+            pricing and instant activation after payment. SMS Package options
+            from 50 to 10000+ messages. Cheap SMS API pricing for developers and
+            businesses.
           </p>
         </div>
       </section>

@@ -12,7 +12,9 @@ export default function Footer() {
               PK SMS Bomber
             </h3>
             <p className="text-sm sm:text-base text-slate-300 leading-relaxed font-medium">
-              Pakistan's first automated SMS spammer and SMS bomber tool. Send unlimited anonymous SMS pranks safely and securely with full operator support.
+              Pakistan's first automated SMS spammer and SMS bomber tool. Send
+              unlimited anonymous SMS pranks safely and securely with full
+              operator support.
             </p>
           </div>
 
@@ -61,7 +63,9 @@ export default function Footer() {
           </div>
 
           <div>
-            <h4 className="text-base sm:text-lg font-bold text-slate-100 mb-4 sm:mb-6">Support</h4>
+            <h4 className="text-base sm:text-lg font-bold text-slate-100 mb-4 sm:mb-6">
+              Support
+            </h4>
             <ul className="space-y-2 sm:space-y-3 text-sm sm:text-base">
               <li>
                 <a
@@ -96,7 +100,9 @@ export default function Footer() {
           </div>
 
           <div>
-            <h4 className="text-base sm:text-lg font-bold text-slate-100 mb-4 sm:mb-6">Information</h4>
+            <h4 className="text-base sm:text-lg font-bold text-slate-100 mb-4 sm:mb-6">
+              Information
+            </h4>
             <ul className="space-y-2 sm:space-y-3 text-sm sm:text-base">
               <li>
                 <a
@@ -132,18 +138,27 @@ export default function Footer() {
         <div className="border-t border-orange-500/20 pt-6 sm:pt-8">
           <div className="hidden" data-seo="true" role="doc-note">
             <p>
-              SMS Bomber Pakistan - SMS Spammer Tool for all Pakistani operators. SMS API Pakistan, Cheap SMS API, Bulk SMS API.
-              SMS Bomber APK, SMS Spammer APK Mod, Android SMS Spammer, iOS SMS Spammer. SMS Bomber free download, SMS Bomber online.
-              SMS Bomber 2024, SMS Bomber 2025, SMS Bomber 2026 versions. SMS Bombing service with 100% success rate.
+              SMS Bomber Pakistan - SMS Spammer Tool for all Pakistani
+              operators. SMS API Pakistan, Cheap SMS API, Bulk SMS API. SMS
+              Bomber APK, SMS Spammer APK Mod, Android SMS Spammer, iOS SMS
+              Spammer. SMS Bomber free download, SMS Bomber online. SMS Bomber
+              2024, SMS Bomber 2025, SMS Bomber 2026 versions. SMS Bombing
+              service with 100% success rate.
             </p>
             <p>
-              Pakistan SMS Service provider offering SMS Package, SMS Charges, SMS Code, SMS Alert, SMS Bill management.
-              Hamariweb SMS, SMS 2PK, Web 2 SMS, SMS Caster, SMS Punch alternatives. Free SMS send service. SMS Unsubscribe and SMS Advance Subscribe.
-              SMS Service Pakistan with JAZZ, ZONG, UFONE, WARID, TELENOR operator support. Bulk SMS Spammer with cheap API pricing.
+              Pakistan SMS Service provider offering SMS Package, SMS Charges,
+              SMS Code, SMS Alert, SMS Bill management. Hamariweb SMS, SMS 2PK,
+              Web 2 SMS, SMS Caster, SMS Punch alternatives. Free SMS send
+              service. SMS Unsubscribe and SMS Advance Subscribe. SMS Service
+              Pakistan with JAZZ, ZONG, UFONE, WARID, TELENOR operator support.
+              Bulk SMS Spammer with cheap API pricing.
             </p>
           </div>
           <p className="text-center text-xs sm:text-base text-slate-400 font-medium">
-            &copy; {currentYear} PK SMS Bomber - Pakistan&apos;s #1 SMS Spammer Tool | Free SMS Bomber APK | Cheap SMS API Pakistan | SMS Bombing Service | All rights reserved. | For educational and entertainment purposes only.
+            &copy; {currentYear} PK SMS Bomber - Pakistan&apos;s #1 SMS Spammer
+            Tool | Free SMS Bomber APK | Cheap SMS API Pakistan | SMS Bombing
+            Service | All rights reserved. | For educational and entertainment
+            purposes only.
           </p>
         </div>
       </div>

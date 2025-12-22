@@ -51,7 +51,9 @@ export default function DownloadPage() {
           {/* Windows 10 */}
           <div className="bg-gradient-to-br from-slate-800/40 to-slate-900/40 rounded-3xl p-6 sm:p-8 lg:p-10 border border-orange-500/30 hover:border-orange-500/70 transition-all duration-300">
             <div className="text-center">
-              <div className="text-5xl sm:text-6xl md:text-7xl mb-4 sm:mb-6">💻</div>
+              <div className="text-5xl sm:text-6xl md:text-7xl mb-4 sm:mb-6">
+                💻
+              </div>
               <h3 className="text-xl sm:text-2xl lg:text-3xl font-black text-slate-100 mb-3">
                 Windows 10
               </h3>
@@ -77,7 +79,9 @@ export default function DownloadPage() {
           {/* Windows 11 */}
           <div className="bg-gradient-to-br from-slate-800/40 to-slate-900/40 rounded-3xl p-6 sm:p-8 lg:p-10 border border-orange-500/30 hover:border-orange-500/70 transition-all duration-300">
             <div className="text-center">
-              <div className="text-5xl sm:text-6xl md:text-7xl mb-4 sm:mb-6">🖥️</div>
+              <div className="text-5xl sm:text-6xl md:text-7xl mb-4 sm:mb-6">
+                🖥️
+              </div>
               <h3 className="text-xl sm:text-2xl lg:text-3xl font-black text-slate-100 mb-3">
                 Windows 11
               </h3>
@@ -123,24 +127,35 @@ export default function DownloadPage() {
         <div className="hidden mt-8" data-seo="true" role="doc-note">
           <h2>Download SMS Bomber APK & Windows - Free SMS Spammer Tool</h2>
           <p>
-            Download SMS Bomber now - Pakistan's best SMS spammer tool for all devices. Our fast SMS bomber APK supports all operators:
-            Download SMS Bomber for JAZZ, ZONG, UFONE, WARID, and TELENOR. Get SMS Bomber APK Mod, SMS Bomber App Mod APK, and SMS Bomber APK Download Latest Version.
-            Available for Windows 10, Windows 11, Android devices, iOS, and iPhone SMS Spammer users.
+            Download SMS Bomber now - Pakistan's best SMS spammer tool for all
+            devices. Our fast SMS bomber APK supports all operators: Download
+            SMS Bomber for JAZZ, ZONG, UFONE, WARID, and TELENOR. Get SMS Bomber
+            APK Mod, SMS Bomber App Mod APK, and SMS Bomber APK Download Latest
+            Version. Available for Windows 10, Windows 11, Android devices, iOS,
+            and iPhone SMS Spammer users.
           </p>
           <p>
-            SMS Bomber APK Mod Download: V1.0, V2, V7, V9 versions available. Download SMS Spammer APK completely free.
-            Android SMS Spammer app with latest features. iPhone SMS Spammer alternative included. SMS Bomber 2024, SMS Bomber 2025, SMS Bomber 2026 versions.
-            Auto SMS Spammer and SMS Caster integrated. APKPure SMS Spammer compatible.
+            SMS Bomber APK Mod Download: V1.0, V2, V7, V9 versions available.
+            Download SMS Spammer APK completely free. Android SMS Spammer app
+            with latest features. iPhone SMS Spammer alternative included. SMS
+            Bomber 2024, SMS Bomber 2025, SMS Bomber 2026 versions. Auto SMS
+            Spammer and SMS Caster integrated. APKPure SMS Spammer compatible.
           </p>
           <p>
-            Download SMS Bomber platform variations: Windows SMS Bomber download, Android SMS Bomber APK download, iOS SMS Spammer app download.
-            Phone SMS Spammer for all mobile devices. Bulk SMS Spammer with SMS API Pakistan integration. Download SMS Bomber Mod APK latest version.
-            Cheap SMS API Pakistan included. Web 2 SMS and SMS Punch alternative tools available.
+            Download SMS Bomber platform variations: Windows SMS Bomber
+            download, Android SMS Bomber APK download, iOS SMS Spammer app
+            download. Phone SMS Spammer for all mobile devices. Bulk SMS Spammer
+            with SMS API Pakistan integration. Download SMS Bomber Mod APK
+            latest version. Cheap SMS API Pakistan included. Web 2 SMS and SMS
+            Punch alternative tools available.
           </p>
           <p>
-            SMS Bomber download free with no hidden charges or registration required. Simply download, install Chrome browser,
-            and start sending unlimited SMS pranks instantly. Best SMS Bomber free download in Pakistan. SMS Spammer 2024 and 2025 versions ready.
-            Download SMS Bombing tool now with 100% success rate guaranteed. SMS Bomber tool download for all Windows, Android, and iOS devices.
+            SMS Bomber download free with no hidden charges or registration
+            required. Simply download, install Chrome browser, and start sending
+            unlimited SMS pranks instantly. Best SMS Bomber free download in
+            Pakistan. SMS Spammer 2024 and 2025 versions ready. Download SMS
+            Bombing tool now with 100% success rate guaranteed. SMS Bomber tool
+            download for all Windows, Android, and iOS devices.
           </p>
         </div>
       </section>
