@@ -27,67 +27,67 @@ export default function LicensePage() {
         </div>
 
         {/* License Table */}
-        <div className="overflow-x-auto rounded-2xl border border-orange-500/30 mb-20">
+        <div className="overflow-x-auto rounded-3xl border border-orange-500/30 bg-gradient-to-br from-slate-800/30 to-slate-900/30 backdrop-blur-sm mb-20">
           <table className="w-full">
             <thead>
-              <tr className="bg-gradient-to-r from-orange-500/20 to-red-500/20 border-b border-orange-500/30">
-                <th className="px-8 py-6 text-left font-black text-slate-100 text-xl">
+              <tr className="bg-gradient-to-r from-orange-600/30 via-red-600/30 to-orange-600/30 border-b border-orange-500/40">
+                <th className="px-6 lg:px-8 py-6 text-left font-black text-slate-100 text-sm lg:text-lg">
                   Duration
                 </th>
-                <th className="px-8 py-6 text-center font-black text-slate-100 text-xl">
-                  Price
+                <th className="px-6 lg:px-8 py-6 text-center font-black text-slate-100 text-sm lg:text-lg">
+                  Price (PKR)
                 </th>
-                <th className="px-8 py-6 text-center font-black text-slate-100 text-xl">
+                <th className="px-6 lg:px-8 py-6 text-center font-black text-slate-100 text-sm lg:text-lg">
                   Daily Cost
                 </th>
               </tr>
             </thead>
             <tbody className="divide-y divide-orange-500/20">
-              <tr className="hover:bg-orange-500/5 transition-colors">
-                <td className="px-8 py-6 font-bold text-slate-200 text-lg">
-                  License Key of 1 Week
+              <tr className="hover:bg-orange-500/15 transition-all duration-300 group cursor-pointer">
+                <td className="px-6 lg:px-8 py-5 font-bold text-slate-200 text-sm lg:text-base group-hover:text-slate-100 transition-colors">
+                  1 Week
                 </td>
-                <td className="px-8 py-6 text-center font-black text-orange-400 text-2xl">
+                <td className="px-6 lg:px-8 py-5 text-center font-black text-orange-400 text-lg lg:text-2xl group-hover:text-orange-300 transition-colors">
                   1,399 PKR
                 </td>
-                <td className="px-8 py-6 text-center text-slate-300 text-lg font-semibold">
-                  ~200 PKR/day
+                <td className="px-6 lg:px-8 py-5 text-center text-slate-300 text-sm lg:text-base font-semibold group-hover:text-slate-200 transition-colors">
+                  ~200 PKR
                 </td>
               </tr>
-              <tr className="bg-orange-500/5 hover:bg-orange-500/10 transition-colors">
-                <td className="px-8 py-6 font-bold text-slate-200 text-lg">
-                  License Key of 2 Weeks
+              <tr className="bg-orange-500/8 hover:bg-orange-500/20 transition-all duration-300 group cursor-pointer">
+                <td className="px-6 lg:px-8 py-5 font-bold text-slate-200 text-sm lg:text-base group-hover:text-slate-100 transition-colors">
+                  2 Weeks
                 </td>
-                <td className="px-8 py-6 text-center font-black text-orange-400 text-2xl">
+                <td className="px-6 lg:px-8 py-5 text-center font-black text-orange-400 text-lg lg:text-2xl group-hover:text-orange-300 transition-colors">
                   2,599 PKR
                 </td>
-                <td className="px-8 py-6 text-center text-slate-300 text-lg font-semibold">
-                  ~186 PKR/day
+                <td className="px-6 lg:px-8 py-5 text-center text-slate-300 text-sm lg:text-base font-semibold group-hover:text-slate-200 transition-colors">
+                  ~186 PKR
                 </td>
               </tr>
-              <tr className="hover:bg-orange-500/5 transition-colors">
-                <td className="px-8 py-6 font-bold text-slate-200 text-lg">
-                  License Key of 1 Month
+              <tr className="hover:bg-orange-500/15 transition-all duration-300 group cursor-pointer">
+                <td className="px-6 lg:px-8 py-5 font-bold text-slate-200 text-sm lg:text-base group-hover:text-slate-100 transition-colors">
+                  1 Month
                 </td>
-                <td className="px-8 py-6 text-center font-black text-orange-400 text-2xl">
+                <td className="px-6 lg:px-8 py-5 text-center font-black text-orange-400 text-lg lg:text-2xl group-hover:text-orange-300 transition-colors">
                   4,799 PKR
                 </td>
-                <td className="px-8 py-6 text-center text-slate-300 text-lg font-semibold">
-                  ~160 PKR/day
+                <td className="px-6 lg:px-8 py-5 text-center text-slate-300 text-sm lg:text-base font-semibold group-hover:text-slate-200 transition-colors">
+                  ~160 PKR
                 </td>
               </tr>
-              <tr className="bg-gradient-to-r from-orange-500/30 to-red-500/30 hover:from-orange-500/40 hover:to-red-500/40 transition-colors">
-                <td className="px-8 py-6 font-bold text-slate-200 text-lg flex items-center gap-3">
-                  License Key of 3 Months
-                  <span className="inline-block px-3 py-1 bg-orange-500 text-white text-xs font-black rounded">
+              <tr className="bg-gradient-to-r from-orange-500/30 to-red-500/30 hover:from-orange-500/45 hover:to-red-500/45 transition-all duration-300 group cursor-pointer">
+                <td className="px-6 lg:px-8 py-5 font-bold text-slate-200 text-sm lg:text-base group-hover:text-slate-100 transition-colors flex items-center gap-3">
+                  3 Months
+                  <span className="inline-block px-2 lg:px-3 py-1 bg-orange-500 text-white text-xs font-black rounded whitespace-nowrap">
                     BEST VALUE
                   </span>
                 </td>
-                <td className="px-8 py-6 text-center font-black text-orange-400 text-2xl">
+                <td className="px-6 lg:px-8 py-5 text-center font-black text-orange-400 text-lg lg:text-2xl group-hover:text-orange-300 transition-colors">
                   11,999 PKR
                 </td>
-                <td className="px-8 py-6 text-center text-slate-300 text-lg font-semibold">
-                  ~133 PKR/day
+                <td className="px-6 lg:px-8 py-5 text-center text-slate-300 text-sm lg:text-base font-semibold group-hover:text-slate-200 transition-colors">
+                  ~133 PKR
                 </td>
               </tr>
             </tbody>
