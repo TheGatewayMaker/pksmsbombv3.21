@@ -48,11 +48,12 @@ export default function DownloadPage() {
         </div>
 
         {/* Download Buttons */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-20">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8 mb-20">
           {/* Windows 10 */}
-          <div className="bg-gradient-to-br from-slate-800/60 to-slate-900/60 rounded-2xl p-10 border border-orange-500/30 hover:border-orange-500/60 transition-all">
-            <div className="text-center">
-              <div className="text-6xl mb-6">💻</div>
+          <div className="group bg-gradient-to-br from-slate-800/50 to-slate-900/50 rounded-3xl p-8 lg:p-10 border border-orange-500/30 hover:border-orange-500/70 transition-all duration-500 hover:shadow-2xl hover:shadow-orange-500/25 hover:-translate-y-2 overflow-hidden relative">
+            <div className="absolute inset-0 bg-gradient-to-br from-orange-500/0 via-transparent to-orange-500/0 group-hover:from-orange-500/5 group-hover:to-orange-500/5 transition-all duration-500 pointer-events-none"></div>
+            <div className="relative z-10 text-center">
+              <div className="text-6xl md:text-7xl mb-6 transform group-hover:scale-110 transition-transform duration-500">💻</div>
               <h3 className="text-3xl font-black text-slate-100 mb-3">
                 Windows 10
               </h3>
