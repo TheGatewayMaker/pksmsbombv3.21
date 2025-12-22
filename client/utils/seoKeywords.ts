@@ -295,7 +295,36 @@ export const generateBreadcrumbSchema = (items: Array<{ name: string; url: strin
   };
 };
 
-// Helper function to inject keyword-rich content
+// Helper function to inject keyword-rich content from Set 1
 export const getKeywordContent = (category: keyof typeof seoKeywords) => {
   return seoKeywords[category];
+};
+
+// Helper function to get keywords from Set 2
+export const getKeywordContent2 = (category: keyof typeof seoKeywords2) => {
+  return seoKeywords2[category];
+};
+
+// Get page-specific keywords
+export const getPageKeywords = (page: keyof typeof pageSpecificKeywords) => {
+  return pageSpecificKeywords[page] || [];
+};
+
+// Get page-specific keywords as string
+export const getPageKeywordsString = (page: keyof typeof pageSpecificKeywords) => {
+  return getPageKeywords(page).join(", ");
+};
+
+// Get global meta keywords string (all combined)
+export const getMetaKeywordsString = () => {
+  return combinedAllKeywords;
+};
+
+// Helper to get keywords for a specific category
+export const getKeywordsByCategory = (set: "set1" | "set2", category: string) => {
+  if (set === "set1") {
+    return seoKeywords[category as keyof typeof seoKeywords] || [];
+  } else {
+    return seoKeywords2[category as keyof typeof seoKeywords2] || [];
+  }
 };
