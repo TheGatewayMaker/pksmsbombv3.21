@@ -17,17 +17,17 @@ export default function DownloadPage() {
 
   return (
     <Layout>
-      <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
+      <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-24">
         {/* Header */}
-        <div className="text-center mb-24">
-          <h1 className="text-7xl md:text-8xl font-black text-slate-100 mb-6 leading-tight">
+        <div className="text-center mb-20 lg:mb-24">
+          <h1 className="text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-black text-slate-100 mb-6 leading-tight">
             Thank You For
             <span className="block bg-gradient-to-r from-orange-400 via-red-500 to-orange-400 bg-clip-text text-transparent">
               Downloading
             </span>
           </h1>
 
-          <p className="text-2xl text-slate-300 mt-8 font-semibold">
+          <p className="text-base md:text-lg lg:text-xl text-slate-300 mt-8 font-medium">
             Download for your compatible Windows version below
           </p>
         </div>
@@ -48,23 +48,23 @@ export default function DownloadPage() {
         </div>
 
         {/* Download Buttons */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-20">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8 mb-20">
           {/* Windows 10 */}
-          <div className="bg-gradient-to-br from-slate-800/60 to-slate-900/60 rounded-2xl p-10 border border-orange-500/30 hover:border-orange-500/60 transition-all">
+          <div className="bg-gradient-to-br from-slate-800/40 to-slate-900/40 rounded-3xl p-8 lg:p-10 border border-orange-500/30 hover:border-orange-500/70 transition-all duration-300">
             <div className="text-center">
-              <div className="text-6xl mb-6">💻</div>
-              <h3 className="text-3xl font-black text-slate-100 mb-3">
+              <div className="text-6xl md:text-7xl mb-6">💻</div>
+              <h3 className="text-2xl lg:text-3xl font-black text-slate-100 mb-3">
                 Windows 10
               </h3>
-              <p className="text-slate-300 mb-8 text-xl font-semibold">
+              <p className="text-slate-300 mb-8 text-base lg:text-lg font-medium">
                 Compatible with Windows 10 (all versions)
               </p>
               <button
                 onClick={() => handleDownload("Windows-10")}
-                className="inline-flex items-center justify-center w-full px-8 py-4 bg-gradient-to-r from-orange-500 to-red-500 text-white font-black text-lg rounded-xl hover:shadow-lg hover:shadow-orange-500/50 transition-all transform hover:scale-105"
+                className="inline-flex items-center justify-center w-full px-6 lg:px-8 py-4 bg-gradient-to-r from-orange-500 to-red-500 text-white font-black text-sm lg:text-base rounded-xl hover:shadow-lg hover:shadow-orange-500/50 transition-all transform hover:scale-105 whitespace-nowrap"
               >
-                <Download className="w-6 h-6 mr-3" />
-                Download for Windows 10
+                <Download className="w-5 lg:w-6 h-5 lg:h-6 mr-2 lg:mr-3" />
+                Windows 10
               </button>
               <p className="text-xs text-slate-400 mt-6 font-semibold">
                 File size: ~25 MB
@@ -73,21 +73,21 @@ export default function DownloadPage() {
           </div>
 
           {/* Windows 11 */}
-          <div className="bg-gradient-to-br from-slate-800/60 to-slate-900/60 rounded-2xl p-10 border border-orange-500/30 hover:border-orange-500/60 transition-all">
+          <div className="bg-gradient-to-br from-slate-800/40 to-slate-900/40 rounded-3xl p-8 lg:p-10 border border-orange-500/30 hover:border-orange-500/70 transition-all duration-300">
             <div className="text-center">
-              <div className="text-6xl mb-6">🖥️</div>
-              <h3 className="text-3xl font-black text-slate-100 mb-3">
+              <div className="text-6xl md:text-7xl mb-6">🖥️</div>
+              <h3 className="text-2xl lg:text-3xl font-black text-slate-100 mb-3">
                 Windows 11
               </h3>
-              <p className="text-slate-300 mb-8 text-xl font-semibold">
+              <p className="text-slate-300 mb-8 text-base lg:text-lg font-medium">
                 Compatible with Windows 11 (all versions)
               </p>
               <button
                 onClick={() => handleDownload("Windows-11")}
-                className="inline-flex items-center justify-center w-full px-8 py-4 bg-gradient-to-r from-orange-500 to-red-500 text-white font-black text-lg rounded-xl hover:shadow-lg hover:shadow-orange-500/50 transition-all transform hover:scale-105"
+                className="inline-flex items-center justify-center w-full px-6 lg:px-8 py-4 bg-gradient-to-r from-orange-500 to-red-500 text-white font-black text-sm lg:text-base rounded-xl hover:shadow-lg hover:shadow-orange-500/50 transition-all transform hover:scale-105 whitespace-nowrap"
               >
-                <Download className="w-6 h-6 mr-3" />
-                Download for Windows 11
+                <Download className="w-5 lg:w-6 h-5 lg:h-6 mr-2 lg:mr-3" />
+                Windows 11
               </button>
               <p className="text-xs text-slate-400 mt-6 font-semibold">
                 File size: ~25 MB
@@ -108,7 +108,7 @@ export default function DownloadPage() {
           </p>
           <Link
             to="/license"
-            className="inline-flex items-center justify-center px-10 py-4 bg-gradient-to-r from-orange-500 to-red-500 text-white font-black text-lg rounded-xl hover:shadow-lg hover:shadow-orange-500/50 transition-all"
+            className="inline-flex items-center justify-center px-8 lg:px-10 py-4 bg-gradient-to-r from-orange-500 to-red-500 text-white font-black text-sm lg:text-base rounded-xl hover:shadow-lg hover:shadow-orange-500/50 transition-all whitespace-nowrap"
           >
             View License Plans
           </Link>

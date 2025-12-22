@@ -7,55 +7,61 @@ export default function PricingPage() {
       count: 100,
       price: 350,
       perSms: 3.5,
+      time: "5-10 Minutes",
       features: [
         "100 SMS to any number",
         "All operators supported",
         "Anonymous delivery",
-        "24-hour validity",
+        "Time Required: 5-10 Minutes",
       ],
     },
     {
       count: 250,
       price: 800,
       perSms: 3.2,
+      time: "10-15 Minutes",
       features: [
         "250 SMS to any number",
         "All operators supported",
         "Anonymous delivery",
-        "24-hour validity",
+        "Time Required: 10-15 Minutes",
       ],
+      popular: true,
     },
     {
       count: 400,
       price: 1200,
       perSms: 3.0,
+      time: "15-20 Minutes",
       features: [
         "400 SMS to any number",
         "All operators supported",
         "Anonymous delivery",
-        "24-hour validity",
+        "Time Required: 15-20 Minutes",
       ],
     },
     {
       count: 1000,
       price: 2600,
       perSms: 2.6,
+      time: "30-45 Minutes",
       features: [
         "1,000 SMS to any number",
         "All operators supported",
         "Anonymous delivery",
-        "7-day validity",
+        "Time Required: 30-45 Minutes",
       ],
     },
     {
       count: 2000,
       price: 4800,
       perSms: 2.4,
+      time: "60-90 Minutes",
       features: [
         "2,000 SMS to any number",
         "All operators supported",
         "Anonymous delivery",
-        "7-day validity",
+        "Time Required: 60-90 Minutes",
       ],
     },
   ];
@@ -64,46 +70,46 @@ export default function PricingPage() {
     <Layout>
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
         {/* Header */}
-        <div className="text-center mb-24">
-          <h1 className="text-7xl md:text-8xl font-black text-slate-100 mb-6 leading-tight">
+        <div className="text-center mb-20 lg:mb-24 px-2">
+          <h1 className="text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-black text-slate-100 mb-6 leading-tight">
             Transparent Pricing
           </h1>
 
-          <p className="text-2xl text-slate-300 max-w-3xl mx-auto mt-8 font-semibold leading-relaxed">
+          <p className="text-base md:text-lg lg:text-xl text-slate-300 max-w-3xl mx-auto mt-8 font-medium leading-relaxed">
             No hidden fees. No surprises. Just simple, honest pricing for our
             SMS bombing service.
           </p>
         </div>
 
         {/* Pricing Cards Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-20">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8 mb-20">
           {pricingTiers.map((tier, index) => (
             <div
               key={index}
-              className={`rounded-2xl border transition-all p-10 ${
-                tier.count === 1000
-                  ? "border-orange-500 bg-gradient-to-br from-orange-500/20 to-red-500/20 ring-2 ring-orange-500/50 relative transform scale-105"
-                  : "border-orange-500/30 bg-gradient-to-br from-slate-800/60 to-slate-900/60 hover:border-orange-500/60 hover:shadow-xl hover:shadow-orange-500/10"
+              className={`rounded-3xl border transition-all duration-300 p-8 lg:p-10 ${
+                tier.popular
+                  ? "border-orange-500 bg-gradient-to-br from-orange-500/20 to-red-500/20 md:scale-105"
+                  : "border-orange-500/30 bg-gradient-to-br from-slate-800/40 to-slate-900/40 hover:border-orange-500/70"
               }`}
             >
-              {tier.count === 1000 && (
-                <div className="absolute -top-5 left-1/2 transform -translate-x-1/2">
-                  <span className="bg-gradient-to-r from-orange-500 to-red-500 text-white px-6 py-2 rounded-full text-base font-black">
+              {tier.popular && (
+                <div className="absolute -top-5 left-1/2 transform -translate-x-1/2 z-20">
+                  <span className="bg-gradient-to-r from-orange-500 to-red-500 text-white px-6 py-2 rounded-full text-sm lg:text-base font-black">
                     Most Popular
                   </span>
                 </div>
               )}
 
               <div>
-                <h3 className="text-3xl font-black text-slate-100 mb-3">
+                <h3 className="text-2xl lg:text-3xl font-black text-slate-100 mb-3">
                   {tier.count.toLocaleString()} SMS
                 </h3>
 
                 <div className="mb-8">
-                  <div className="text-5xl font-black text-orange-400">
+                  <div className="text-4xl lg:text-5xl font-black text-orange-400">
                     {tier.price.toLocaleString()} PKR
                   </div>
-                  <p className="text-slate-300 text-lg mt-3 font-semibold">
+                  <p className="text-slate-300 text-base lg:text-lg mt-3 font-semibold">
                     {tier.perSms} PKR per SMS
                   </p>
                 </div>
@@ -111,8 +117,8 @@ export default function PricingPage() {
                 <ul className="space-y-4 mb-10">
                   {tier.features.map((feature, featureIdx) => (
                     <li key={featureIdx} className="flex items-start gap-3">
-                      <Check className="w-6 h-6 text-orange-400 flex-shrink-0 mt-1 font-black" />
-                      <span className="text-slate-300 font-semibold text-lg">
+                      <Check className="w-5 lg:w-6 h-5 lg:h-6 text-orange-400 flex-shrink-0 mt-1 font-black" />
+                      <span className="text-slate-300 font-medium text-sm lg:text-base">
                         {feature}
                       </span>
                     </li>
@@ -123,14 +129,14 @@ export default function PricingPage() {
                   href="https://wa.me/message/XMTA7ADWNLB2D1"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className={`w-full inline-flex items-center justify-center px-8 py-4 font-black text-lg rounded-xl transition-all transform hover:scale-105 ${
-                    tier.count === 1000
-                      ? "bg-gradient-to-r from-orange-500 to-red-500 text-white hover:shadow-lg hover:shadow-orange-500/50"
-                      : "border-2 border-orange-500 text-orange-400 hover:bg-orange-500/10"
+                  className={`w-full inline-flex items-center justify-center px-6 lg:px-8 py-4 font-black text-base lg:text-lg rounded-xl transition-all transform hover:scale-105 whitespace-nowrap ${
+                    tier.popular
+                      ? "bg-gradient-to-r from-orange-500 to-red-500 text-white hover:shadow-xl hover:shadow-orange-500/50"
+                      : "border-2 border-orange-500 text-orange-400 hover:bg-orange-500/15"
                   }`}
                 >
                   Get {tier.count} SMS
-                  <ExternalLink className="ml-3 w-5 h-5" />
+                  <ExternalLink className="ml-2 lg:ml-3 w-4 lg:w-5 h-4 lg:h-5" />
                 </a>
               </div>
             </div>
