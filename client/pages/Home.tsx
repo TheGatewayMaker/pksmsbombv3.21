@@ -18,7 +18,7 @@ export default function Home() {
 
           {/* Pumpkin Image - Integrated with Text */}
           <div className="w-full lg:w-auto flex justify-center lg:justify-end lg:mt-12">
-            <div className="w-72 md:w-96 lg:w-[28rem] xl:w-[32rem]">
+            <div className="w-64 md:w-80 lg:w-[24rem] xl:w-[28rem]">
               <img
                 src="https://cdn.builder.io/api/v1/image/assets%2F5aae9acb8c5d450e964b76328688b687%2Fa80312c5d1854423ae670c9e53b58958?format=webp&width=800"
                 alt="SMS Bomber Pumpkin"
