@@ -17,7 +17,7 @@ export default function Home() {
               </span>
             </h1>
 
-            <p className="text-xl md:text-2xl text-slate-300 max-w-2xl leading-relaxed font-semibold mx-auto lg:mx-0">
+            <p className="text-base md:text-lg lg:text-xl text-slate-300 max-w-2xl leading-relaxed font-medium mx-auto lg:mx-0">
               Automated SMS Bomber made specially to prank your friends. Send
               unlimited SMS messages with our secure, anonymous, and easy-to-use
               tool. No technical knowledge required.
