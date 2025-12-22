@@ -6,36 +6,54 @@ export default function Home() {
     <Layout>
       {/* Hero Section */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-32 md:py-48">
-        <div className="text-center space-y-8">
-          <h1 className="text-7xl md:text-8xl font-black text-slate-100 leading-tight">
-            Pakistan's First
-            <span className="block bg-gradient-to-r from-orange-400 via-red-500 to-orange-400 bg-clip-text text-transparent">
-              SMS Spammer Tool
-            </span>
-          </h1>
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          {/* Content */}
+          <div className="space-y-8 text-center lg:text-left">
+            <h1 className="text-6xl md:text-7xl lg:text-8xl font-black text-slate-100 leading-tight">
+              Pakistan's First
+              <span className="block bg-gradient-to-r from-orange-400 via-red-500 to-orange-400 bg-clip-text text-transparent">
+                SMS Spammer Tool
+              </span>
+            </h1>
 
-          <p className="text-2xl md:text-3xl text-slate-300 max-w-3xl mx-auto leading-relaxed font-semibold">
-            Automated SMS Bomber made specially to prank your friends. Send
-            unlimited SMS messages with our secure, anonymous, and easy-to-use
-            tool. No technical knowledge required.
-          </p>
+            <p className="text-xl md:text-2xl text-slate-300 max-w-2xl leading-relaxed font-semibold mx-auto lg:mx-0">
+              Automated SMS Bomber made specially to prank your friends. Send
+              unlimited SMS messages with our secure, anonymous, and easy-to-use
+              tool. No technical knowledge required.
+            </p>
 
-          <div className="flex flex-col sm:flex-row gap-6 justify-center pt-12">
-            <a
-              href="/download"
-              className="inline-flex items-center justify-center px-10 py-4 bg-gradient-to-r from-orange-500 to-red-500 text-white font-black text-lg rounded-xl hover:shadow-2xl hover:shadow-orange-500/50 transition-all duration-300 transform hover:scale-105"
-            >
-              Download Now
-            </a>
-            <a
-              href="https://wa.me/message/XMTA7ADWNLB2D1"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center justify-center px-10 py-4 border-3 border-orange-500 text-orange-400 font-black text-lg rounded-xl hover:bg-orange-500/10 transition-all duration-300"
-            >
-              Contact via WhatsApp
-              <ExternalLink className="ml-3 w-5 h-5" />
-            </a>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start pt-8">
+              <a
+                href="/download"
+                className="inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-orange-500 to-red-500 text-white font-black rounded-xl hover:shadow-2xl hover:shadow-orange-500/50 transition-all duration-300 transform hover:scale-105 whitespace-nowrap"
+              >
+                Download Now
+              </a>
+              <a
+                href="https://wa.me/message/XMTA7ADWNLB2D1"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center px-8 py-4 border-3 border-orange-500 text-orange-400 font-black rounded-xl hover:bg-orange-500/10 transition-all duration-300 whitespace-nowrap"
+              >
+                Contact WhatsApp
+                <ExternalLink className="ml-2 w-4 h-4" />
+              </a>
+            </div>
+          </div>
+
+          {/* Pumpkin Image */}
+          <div className="hidden lg:flex justify-center items-center">
+            <div className="relative w-full max-w-md">
+              <div className="absolute inset-0 bg-gradient-to-r from-orange-500/20 to-red-500/20 rounded-3xl blur-3xl"></div>
+              <img
+                src="https://cdn.builder.io/api/v1/image/assets%2F21782784306240369f0bf06000b72d16%2Ff4f348fae6094dc0834e5d8836b622a0?format=webp&width=800"
+                alt="SMS Bomber Pumpkin"
+                className="relative w-full h-auto drop-shadow-2xl transform transition-transform duration-500 hover:scale-110 hover:-rotate-3 cursor-pointer filter drop-shadow-lg"
+                style={{
+                  filter: 'drop-shadow(0 25px 50px rgba(249, 115, 22, 0.3))',
+                }}
+              />
+            </div>
           </div>
         </div>
       </section>
