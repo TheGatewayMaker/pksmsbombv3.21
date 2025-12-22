@@ -9,7 +9,7 @@ export default function Header() {
           className="flex items-center gap-2 sm:gap-3 hover:opacity-80 transition-opacity flex-shrink-0"
         >
           <img
-            src="https://cdn.builder.io/api/v1/image/assets%2F21e53940686840dfab4f5a6e4a2a1205%2F0bf09163b43040bf9014564502559b38?format=webp&width=100"
+            src="https://cdn.builder.io/api/v1/image/assets%2F21782784306240369f0bf06000b72d16%2F55759bbe1b394328a855e8d52c024695?format=webp&width=100"
             alt="SMS Bomber"
             className="h-10 sm:h-12 w-10 sm:w-12 drop-shadow-lg"
           />
