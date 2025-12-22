@@ -5,12 +5,12 @@ export default function Home() {
   return (
     <Layout>
       {/* Hero Section */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-32 lg:py-48">
-        <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-12">
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 md:py-20 lg:py-32">
+        <div className="flex flex-col lg:flex-row items-center gap-6 lg:gap-12">
           {/* Content and Image - Integrated Layout */}
           <div className="flex-1">
             <div className="flex flex-col items-center lg:items-start">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-black text-slate-100 leading-tight text-center lg:text-left">
+              <h1 className="text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-black text-slate-100 leading-tight text-center lg:text-left">
                 Pakistan's First
                 <span className="block bg-gradient-to-r from-orange-400 via-red-500 to-orange-400 bg-clip-text text-transparent">
                   SMS Spammer Tool
@@ -21,13 +21,13 @@ export default function Home() {
 
           {/* Pumpkin Image - Integrated with Text */}
           <div className="w-full lg:w-auto flex justify-center lg:justify-end">
-            <div className="w-48 md:w-64 lg:w-72">
+            <div className="w-56 md:w-80 lg:w-96">
               <img
-                src="https://cdn.builder.io/api/v1/image/assets%2F21782784306240369f0bf06000b72d16%2F55759bbe1b394328a855e8d52c024695?format=webp&width=800"
+                src="https://cdn.builder.io/api/v1/image/assets%2F5aae9acb8c5d450e964b76328688b687%2Fa80312c5d1854423ae670c9e53b58958?format=webp&width=800"
                 alt="SMS Bomber Pumpkin"
                 className="w-full h-auto drop-shadow-2xl"
                 style={{
-                  filter: "drop-shadow(0 25px 50px rgba(249, 115, 22, 0.3))",
+                  filter: "drop-shadow(0 0px 80px rgba(249, 115, 22, 0.6)), drop-shadow(0 0px 40px rgba(239, 68, 68, 0.5))",
                 }}
               />
             </div>
@@ -35,7 +35,7 @@ export default function Home() {
         </div>
 
         {/* Description and CTAs */}
-        <div className="mt-12 text-center lg:text-left max-w-3xl mx-auto lg:mx-0">
+        <div className="mt-8 text-center lg:text-left max-w-3xl mx-auto lg:mx-0">
           <p className="text-base md:text-lg lg:text-xl text-slate-300 leading-relaxed font-medium mb-8">
             Automated SMS Bomber made specially to prank your friends. Send
             unlimited SMS messages with our secure, anonymous, and easy-to-use
