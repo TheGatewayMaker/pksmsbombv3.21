@@ -86,7 +86,7 @@ export default function Home() {
             Why Choose Us?
           </h2>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
             {/* Feature 1 */}
             <div className="bg-gradient-to-br from-slate-800/40 to-slate-900/40 rounded-3xl p-8 lg:p-10 border border-orange-500/30 hover:border-orange-500/70 transition-all duration-300">
               <div className="text-6xl md:text-7xl mb-6">⚡</div>
@@ -108,7 +108,7 @@ export default function Home() {
               </h3>
               <p className="text-base lg:text-lg text-slate-300 leading-relaxed font-medium">
                 Our SMS Spammer Tool supports all major operators: JAZZ, WARID,
-                UFONE & ZONG. Works with any carrier in Pakistan.
+                UFONE, ZONG & TELENOR. Works with any carrier in Pakistan.
               </p>
             </div>
 
@@ -122,6 +122,19 @@ export default function Home() {
                 Our tool is entirely anonymous, keeping your IP hidden using
                 auto TOR & proxies to bypass limitations. Your privacy is
                 guaranteed.
+              </p>
+            </div>
+
+            {/* Feature 4 */}
+            <div className="bg-gradient-to-br from-slate-800/40 to-slate-900/40 rounded-3xl p-8 lg:p-10 border border-orange-500/30 hover:border-orange-500/70 transition-all duration-300">
+              <div className="text-6xl md:text-7xl mb-6">✅</div>
+              <h3 className="text-2xl lg:text-3xl font-black text-slate-100 mb-4">
+                100% Success Rate
+              </h3>
+              <p className="text-base lg:text-lg text-slate-300 leading-relaxed font-medium">
+                Guaranteed delivery of SMS messages with our proven and tested
+                technology. Reliable performance across all platforms and
+                operators.
               </p>
             </div>
           </div>
