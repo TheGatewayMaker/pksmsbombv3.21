@@ -207,26 +207,26 @@ export default function PricingPage() {
         </div>
 
         {/* Operators Info */}
-        <div className="bg-gradient-to-r from-orange-500/20 to-red-500/20 rounded-2xl p-12 border border-orange-500/30">
-          <h2 className="text-4xl font-black text-slate-100 mb-8">
+        <div className="bg-gradient-to-r from-orange-500/20 to-red-500/20 rounded-2xl p-8 sm:p-12 border border-orange-500/30">
+          <h2 className="text-3xl sm:text-4xl font-black text-slate-100 mb-6 sm:mb-8">
             Supported Operators
           </h2>
 
-          <p className="text-slate-300 mb-10 text-xl font-semibold leading-relaxed">
+          <p className="text-slate-300 mb-8 sm:mb-10 text-base sm:text-lg lg:text-xl font-semibold leading-relaxed">
             All our SMS packages work with all major Pakistani mobile operators.
             Your SMS will be delivered reliably to any carrier.
           </p>
 
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-6">
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4 sm:gap-6">
             {["JAZZ", "ZONG", "UFONE", "WARID", "TELENOR"].map((operator) => (
               <div
                 key={operator}
-                className="bg-gradient-to-br from-slate-800/60 to-slate-900/60 rounded-xl p-6 text-center border border-orange-500/20"
+                className="bg-gradient-to-br from-slate-800/60 to-slate-900/60 rounded-xl p-4 sm:p-6 text-center border border-orange-500/20"
               >
-                <div className="font-black text-slate-100 text-2xl">
+                <div className="font-black text-slate-100 text-lg sm:text-2xl">
                   {operator}
                 </div>
-                <p className="text-xs text-slate-300 mt-2 font-bold">
+                <p className="text-xs sm:text-sm text-slate-300 mt-2 font-bold">
                   Full Support
                 </p>
               </div>
