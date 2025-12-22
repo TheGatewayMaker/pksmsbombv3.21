@@ -92,6 +92,9 @@ export default function DownloadPage() {
               <p className="text-xs text-slate-400 mt-6 font-semibold">
                 File size: ~25 MB
               </p>
+              <p className="text-xs text-orange-400 mt-3 font-black">
+                PK-SMS-BOMB-V3.2
+              </p>
             </div>
           </div>
         </div>
