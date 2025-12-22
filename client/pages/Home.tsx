@@ -10,8 +10,12 @@ export default function Home() {
           {/* Content and Image - Integrated Layout */}
           <div className="flex-1 min-w-0">
             <div className="flex flex-col items-center lg:items-start">
-              <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-8xl font-black text-slate-100 leading-none md:leading-tight text-center lg:text-left max-w-2xl">
-                Pakistan's First<span className="block bg-gradient-to-r from-orange-400 via-red-500 to-orange-400 bg-clip-text text-transparent">SMS Spammer Tool</span>
+              <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-8xl font-black text-slate-100 leading-tight text-center lg:text-left max-w-sm lg:max-w-xl">
+                Pakistan's First
+                <span className="block bg-gradient-to-r from-orange-400 via-red-500 to-orange-400 bg-clip-text text-transparent">
+                  SMS Spammer
+                </span>
+                <span className="block text-slate-100">Tool</span>
               </h1>
             </div>
           </div>
