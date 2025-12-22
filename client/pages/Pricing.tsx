@@ -86,13 +86,12 @@ export default function PricingPage() {
           {pricingTiers.map((tier, index) => (
             <div
               key={index}
-              className={`group rounded-3xl border transition-all duration-500 p-8 lg:p-10 overflow-hidden relative ${
+              className={`rounded-3xl border transition-all duration-300 p-8 lg:p-10 ${
                 tier.popular
-                  ? "border-orange-500 bg-gradient-to-br from-orange-500/25 to-red-500/25 ring-2 ring-orange-500/60 md:scale-105 shadow-xl shadow-orange-500/30 hover:shadow-2xl hover:shadow-orange-500/50 hover:-translate-y-2"
-                  : "border-orange-500/30 bg-gradient-to-br from-slate-800/50 to-slate-900/50 hover:border-orange-500/70 hover:shadow-2xl hover:shadow-orange-500/25 hover:-translate-y-2"
+                  ? "border-orange-500 bg-gradient-to-br from-orange-500/20 to-red-500/20 md:scale-105"
+                  : "border-orange-500/30 bg-gradient-to-br from-slate-800/40 to-slate-900/40 hover:border-orange-500/70"
               }`}
             >
-              <div className="absolute inset-0 bg-gradient-to-br from-orange-500/0 via-transparent to-orange-500/0 group-hover:from-orange-500/5 group-hover:to-orange-500/5 transition-all duration-500 pointer-events-none"></div>
               {tier.popular && (
                 <div className="absolute -top-5 left-1/2 transform -translate-x-1/2 z-20">
                   <span className="bg-gradient-to-r from-orange-500 to-red-500 text-white px-6 py-2 rounded-full text-sm lg:text-base font-black shadow-lg group-hover:shadow-xl transition-all duration-300">
