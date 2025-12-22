@@ -17,13 +17,13 @@ export default function DownloadPage() {
 
   return (
     <Layout>
-      <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-24">
+      <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
         {/* Header */}
-        <div className="text-center mb-20 lg:mb-24">
-          <h1 className="text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-black text-slate-100 mb-6 leading-tight">
-            Thank You For
+        <div className="text-center mb-12 lg:mb-16">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-black text-slate-100 mb-4 leading-tight">
+            Download from
             <span className="block bg-gradient-to-r from-orange-400 via-red-500 to-orange-400 bg-clip-text text-transparent">
-              Downloading
+              Below
             </span>
           </h1>
 
@@ -36,10 +36,10 @@ export default function DownloadPage() {
         <div className="bg-gradient-to-r from-yellow-500/20 to-amber-500/20 border-2 border-yellow-500/50 rounded-2xl p-8 mb-16 flex gap-6">
           <AlertTriangle className="w-8 h-8 text-yellow-400 flex-shrink-0 mt-1" />
           <div>
-            <h3 className="font-black text-yellow-300 mb-3 text-xl">
+            <h3 className="font-black text-yellow-300 mb-3 text-2xl lg:text-3xl">
               Important: Chrome Browser Required
             </h3>
-            <p className="text-yellow-100 text-lg font-semibold">
+            <p className="text-yellow-100 text-base lg:text-lg font-semibold">
               Please make sure to have Chrome Browser installed on your system
               before using the tool. The application requires Chrome to function
               properly.
@@ -69,6 +69,9 @@ export default function DownloadPage() {
               <p className="text-xs text-slate-400 mt-6 font-semibold">
                 File size: ~25 MB
               </p>
+              <p className="text-xs text-orange-400 mt-3 font-black">
+                PK-SMS-BOMB-V3.2
+              </p>
             </div>
           </div>
 
@@ -92,6 +95,9 @@ export default function DownloadPage() {
               <p className="text-xs text-slate-400 mt-6 font-semibold">
                 File size: ~25 MB
               </p>
+              <p className="text-xs text-orange-400 mt-3 font-black">
+                PK-SMS-BOMB-V3.2
+              </p>
             </div>
           </div>
         </div>
@@ -112,48 +118,6 @@ export default function DownloadPage() {
           >
             View License Plans
           </Link>
-        </div>
-
-        {/* Instructions */}
-        <div className="mt-20 pt-16 border-t border-orange-500/20">
-          <h3 className="text-4xl font-black text-slate-100 mb-10">
-            Installation Instructions
-          </h3>
-          <ol className="space-y-6 text-slate-300">
-            <li className="flex gap-6">
-              <span className="font-black text-orange-400 text-2xl min-w-fit">
-                1.
-              </span>
-              <span className="text-xl font-semibold leading-relaxed">
-                Download the .exe file for your Windows version above
-              </span>
-            </li>
-            <li className="flex gap-6">
-              <span className="font-black text-orange-400 text-2xl min-w-fit">
-                2.
-              </span>
-              <span className="text-xl font-semibold leading-relaxed">
-                Make sure Chrome browser is installed on your system
-              </span>
-            </li>
-            <li className="flex gap-6">
-              <span className="font-black text-orange-400 text-2xl min-w-fit">
-                3.
-              </span>
-              <span className="text-xl font-semibold leading-relaxed">
-                Run the installer and follow the on-screen instructions
-              </span>
-            </li>
-            <li className="flex gap-6">
-              <span className="font-black text-orange-400 text-2xl min-w-fit">
-                4.
-              </span>
-              <span className="text-xl font-semibold leading-relaxed">
-                Launch the application and purchase a license to unlock full
-                features
-              </span>
-            </li>
-          </ol>
         </div>
       </section>
     </Layout>

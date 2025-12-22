@@ -5,29 +5,31 @@ export default function Home() {
   return (
     <Layout>
       {/* Hero Section */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-32 lg:py-48">
-        <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-12">
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 md:py-20 lg:py-32">
+        <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-16">
           {/* Content and Image - Integrated Layout */}
-          <div className="flex-1">
+          <div className="flex-1 min-w-0">
             <div className="flex flex-col items-center lg:items-start">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-black text-slate-100 leading-tight text-center lg:text-left">
+              <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-8xl font-black text-slate-100 leading-tight text-center lg:text-left">
                 Pakistan's First
                 <span className="block bg-gradient-to-r from-orange-400 via-red-500 to-orange-400 bg-clip-text text-transparent">
-                  SMS Spammer Tool
+                  SMS Spammer
                 </span>
+                <span className="block text-slate-100">Tool</span>
               </h1>
             </div>
           </div>
 
           {/* Pumpkin Image - Integrated with Text */}
-          <div className="w-full lg:w-auto flex justify-center lg:justify-end">
-            <div className="w-48 md:w-64 lg:w-72">
+          <div className="w-full lg:w-auto flex flex-col items-center lg:items-end lg:mt-12 flex-shrink-0">
+            <div className="w-56 md:w-72 lg:w-80 xl:w-96">
               <img
-                src="https://cdn.builder.io/api/v1/image/assets%2F21782784306240369f0bf06000b72d16%2F55759bbe1b394328a855e8d52c024695?format=webp&width=800"
+                src="https://cdn.builder.io/api/v1/image/assets%2F5aae9acb8c5d450e964b76328688b687%2Fa80312c5d1854423ae670c9e53b58958?format=webp&width=800"
                 alt="SMS Bomber Pumpkin"
                 className="w-full h-auto drop-shadow-2xl"
                 style={{
-                  filter: "drop-shadow(0 25px 50px rgba(249, 115, 22, 0.3))",
+                  filter:
+                    "drop-shadow(0 0px 100px rgba(249, 115, 22, 0.8)), drop-shadow(0 0px 60px rgba(239, 68, 68, 0.6)), drop-shadow(0 0px 30px rgba(249, 115, 22, 0.4))",
                 }}
               />
             </div>
@@ -35,7 +37,7 @@ export default function Home() {
         </div>
 
         {/* Description and CTAs */}
-        <div className="mt-12 text-center lg:text-left max-w-3xl mx-auto lg:mx-0">
+        <div className="mt-4 text-center lg:text-left max-w-3xl mx-auto lg:mx-0">
           <p className="text-base md:text-lg lg:text-xl text-slate-300 leading-relaxed font-medium mb-8">
             Automated SMS Bomber made specially to prank your friends. Send
             unlimited SMS messages with our secure, anonymous, and easy-to-use
@@ -66,7 +68,7 @@ export default function Home() {
       <section className="py-12 border-b border-orange-500/20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-wrap justify-center items-center gap-6 lg:gap-10">
-            {["JAZZ", "ZONG", "UFONE", "WARID"].map((operator) => (
+            {["JAZZ", "ZONG", "UFONE", "WARID", "TELENOR"].map((operator) => (
               <div
                 key={operator}
                 className="text-lg lg:text-2xl font-black text-white whitespace-nowrap"
@@ -85,7 +87,7 @@ export default function Home() {
             Why Choose Us?
           </h2>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
             {/* Feature 1 */}
             <div className="bg-gradient-to-br from-slate-800/40 to-slate-900/40 rounded-3xl p-8 lg:p-10 border border-orange-500/30 hover:border-orange-500/70 transition-all duration-300">
               <div className="text-6xl md:text-7xl mb-6">⚡</div>
@@ -107,7 +109,7 @@ export default function Home() {
               </h3>
               <p className="text-base lg:text-lg text-slate-300 leading-relaxed font-medium">
                 Our SMS Spammer Tool supports all major operators: JAZZ, WARID,
-                UFONE & ZONG. Works with any carrier in Pakistan.
+                UFONE, ZONG & TELENOR. Works with any carrier in Pakistan.
               </p>
             </div>
 
@@ -121,6 +123,19 @@ export default function Home() {
                 Our tool is entirely anonymous, keeping your IP hidden using
                 auto TOR & proxies to bypass limitations. Your privacy is
                 guaranteed.
+              </p>
+            </div>
+
+            {/* Feature 4 */}
+            <div className="bg-gradient-to-br from-slate-800/40 to-slate-900/40 rounded-3xl p-8 lg:p-10 border border-orange-500/30 hover:border-orange-500/70 transition-all duration-300">
+              <div className="text-6xl md:text-7xl mb-6">✅</div>
+              <h3 className="text-2xl lg:text-3xl font-black text-slate-100 mb-4">
+                100% Success Rate
+              </h3>
+              <p className="text-base lg:text-lg text-slate-300 leading-relaxed font-medium">
+                Guaranteed delivery of SMS messages with our proven and tested
+                technology. Reliable performance across all platforms and
+                operators.
               </p>
             </div>
           </div>
@@ -233,7 +248,7 @@ export default function Home() {
       {/* CTA Section */}
       <section className="bg-gradient-to-r from-orange-600 via-red-600 to-orange-600 my-16 lg:my-20">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-28 text-center">
-          <h2 className="text-4xl md:text-5xl lg:text-6xl font-black text-white mb-6 lg:mb-8">
+          <h2 className="text-5xl md:text-6xl lg:text-7xl font-black text-white mb-6 lg:mb-8">
             Ready to Get Started?
           </h2>
           <p className="text-base md:text-lg lg:text-xl text-white/95 mb-8 lg:mb-12 max-w-2xl mx-auto leading-relaxed font-medium">

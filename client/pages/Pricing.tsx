@@ -217,8 +217,8 @@ export default function PricingPage() {
             Your SMS will be delivered reliably to any carrier.
           </p>
 
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-            {["JAZZ", "ZONG", "UFONE", "WARID"].map((operator) => (
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-6">
+            {["JAZZ", "ZONG", "UFONE", "WARID", "TELENOR"].map((operator) => (
               <div
                 key={operator}
                 className="bg-gradient-to-br from-slate-800/60 to-slate-900/60 rounded-xl p-6 text-center border border-orange-500/20"

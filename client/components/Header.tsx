@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export default function Header() {
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 backdrop-blur-2xl bg-gradient-to-b from-slate-900/95 to-slate-900/80 border-b border-orange-500/20">
+    <header className="fixed top-0 left-0 right-0 z-50 backdrop-blur-md bg-slate-900/30 border-b border-orange-500/30">
       <nav className="max-w-7xl mx-auto px-3 sm:px-4 lg:px-8 h-16 sm:h-20 flex items-center justify-between">
         <Link
           to="/"
@@ -14,7 +14,7 @@ export default function Header() {
             className="h-10 sm:h-12 w-10 sm:w-12 drop-shadow-lg"
           />
           <div className="text-xl sm:text-2xl lg:text-3xl font-black bg-gradient-to-r from-orange-400 via-red-500 to-orange-400 bg-clip-text text-transparent">
-            SMS Bomber
+            Pk Sms Bomb
           </div>
         </Link>
 

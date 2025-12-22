@@ -4,7 +4,7 @@ import { Check, ExternalLink } from "lucide-react";
 export default function LicensePage() {
   const licenseFeatures = [
     "Full SMS Bombing capabilities",
-    "All operator support (JAZZ, WARID, UFONE, ZONG)",
+    "All operator support (JAZZ, WARID, UFONE, ZONG, TELENOR)",
     "Unlimited daily usage",
     "Anonymous delivery with TOR/Proxies",
     "Auto-update feature",
