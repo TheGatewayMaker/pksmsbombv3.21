@@ -32,12 +32,11 @@ export default function Home() {
                 }}
               />
             </div>
-            <p className="mt-6 text-center text-sm sm:text-base font-black text-orange-400">PK-SMS-BOMB-V3.2</p>
           </div>
         </div>
 
         {/* Description and CTAs */}
-        <div className="mt-8 text-center lg:text-left max-w-3xl mx-auto lg:mx-0">
+        <div className="mt-4 text-center lg:text-left max-w-3xl mx-auto lg:mx-0">
           <p className="text-base md:text-lg lg:text-xl text-slate-300 leading-relaxed font-medium mb-8">
             Automated SMS Bomber made specially to prank your friends. Send
             unlimited SMS messages with our secure, anonymous, and easy-to-use
