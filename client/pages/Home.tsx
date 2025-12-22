@@ -265,16 +265,103 @@ export default function Home() {
         </div>
       </section>
 
-      {/* SEO Meta Keywords Section */}
-      <div className="hidden" data-seo="true">
+      {/* SEO Hidden Content Section */}
+      <div className="hidden" data-seo="true" role="doc-note">
+        <h2>SMS Bomber - Complete Solution for Pakistan</h2>
         <p>
-          SMS Bomber, SMS Spammer, Pakistan SMS Spammer, Pak SMS Spammer, Pak
-          SMS Bomber, PK SMS Bomber, Pak OTP Spammer, OTP Bomber, SMS Bomber
-          Pakistan, SMS Bomber for Pakistan, Automated SMS Tool, Anonymous SMS
-          Sender, Pakistani SMS Tool, SMS Pranks, SMS Bulk Sender, Windows SMS
-          Tool, Jazz Zong Ufone Warid
+          Our SMS Bomber is Pakistan's first automated SMS spammer tool that works with all major operators:
+          SMS Bomber JAZZ, SMS Bomber ZONG, SMS Bomber UFONE, SMS Bomber WARID, SMS Bomber TELENOR.
+        </p>
+        <p>
+          Whether you're looking for a free SMS bomber, SMS bomber APK, SMS bomber online, SMS bomber Windows,
+          fast SMS bomber, SMS bomber prank, SMS bomber tool, or SMS bombing service - we have the solution.
+        </p>
+        <p>
+          Our SMS Spammer tool offers unlimited SMS messages with anonymous delivery. Available as SMS Bomber 2024,
+          SMS Bomber 2025, SMS Bomber Mod APK, and more. Perfect for SMS pranks, OTP bombing, and call bombing.
+        </p>
+        <p>
+          Compatible with Windows 10 and Windows 11. Download our SMS Bomber now and enjoy secure, anonymous SMS sending.
+          Best SMS Bomber for Pakistani users seeking reliable SMS bombing service with 100% success rate.
         </p>
       </div>
+
+      {/* FAQ Schema Markup */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "What is SMS Bomber and how does it work?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "SMS Bomber is Pakistan's first automated SMS spammer tool that allows you to send unlimited anonymous SMS messages. Simply select your SMS package, contact us via WhatsApp, make payment, and start using the tool immediately."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Which operators does SMS Bomber support?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "SMS Bomber supports all major Pakistani operators: JAZZ SMS Bomber, ZONG SMS Bomber, UFONE SMS Bomber, WARID SMS Bomber, and TELENOR SMS Bomber. Your SMS will be delivered reliably to any carrier."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Is SMS Bomber completely anonymous?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes, SMS Bomber is completely anonymous. We use auto TOR and proxies to hide your IP address, keeping your identity completely protected while sending SMS messages."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What Windows versions are supported?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "SMS Bomber is compatible with Windows 10 and Windows 11 (all versions). The tool requires Chrome browser to be installed on your system."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How much does SMS Bomber cost?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "SMS Bomber offers transparent pricing: 100 SMS for 350 PKR, 250 SMS for 800 PKR, 400 SMS for 1200 PKR, 1000 SMS for 2600 PKR, and 2000 SMS for 4800 PKR. Custom packages available on request."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What is the success rate of SMS Bomber?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "SMS Bomber has a 100% success rate. We guarantee delivery of SMS messages with our proven and tested technology that works reliably across all platforms and operators."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Can I use SMS Bomber for SMS pranks?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes, SMS Bomber is perfect for harmless SMS pranks. With our unlimited SMS bomber capabilities and anonymous delivery, you can prank your friends securely."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Is there a free SMS Bomber version available?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "SMS Bomber offers flexible and affordable pricing starting from just 350 PKR for 100 SMS. We also provide custom packages for larger bulk SMS requirements."
+                }
+              }
+            ]
+          })
+        }}
+      />
     </Layout>
   );
 }
