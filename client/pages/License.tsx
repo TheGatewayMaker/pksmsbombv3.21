@@ -113,7 +113,7 @@ export default function LicensePage() {
         </div>
 
         {/* CTA Section */}
-        <div className="bg-gradient-to-r from-orange-600 to-red-600 rounded-3xl p-10 lg:p-12 text-center mb-20 shadow-xl shadow-orange-600/50 hover:shadow-2xl hover:shadow-orange-600/60 transition-all duration-500">
+        <div className="bg-gradient-to-r from-orange-600 to-red-600 rounded-3xl p-10 lg:p-12 text-center mb-20">
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-black text-white mb-6 lg:mb-8">
             Ready to Get Your License?
           </h2>
