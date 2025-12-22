@@ -94,14 +94,14 @@ export default function PricingPage() {
             >
               <div className="absolute inset-0 bg-gradient-to-br from-orange-500/0 via-transparent to-orange-500/0 group-hover:from-orange-500/5 group-hover:to-orange-500/5 transition-all duration-500 pointer-events-none"></div>
               {tier.popular && (
-                <div className="absolute -top-5 left-1/2 transform -translate-x-1/2">
-                  <span className="bg-gradient-to-r from-orange-500 to-red-500 text-white px-6 py-2 rounded-full text-sm lg:text-base font-black shadow-lg">
+                <div className="absolute -top-5 left-1/2 transform -translate-x-1/2 z-20">
+                  <span className="bg-gradient-to-r from-orange-500 to-red-500 text-white px-6 py-2 rounded-full text-sm lg:text-base font-black shadow-lg group-hover:shadow-xl transition-all duration-300">
                     Most Popular
                   </span>
                 </div>
               )}
 
-              <div>
+              <div className="relative z-10">
                 <h3 className="text-2xl lg:text-3xl font-black text-slate-100 mb-3">
                   {tier.count.toLocaleString()} SMS
                 </h3>
