@@ -15,27 +15,27 @@ const NotFound = () => {
 
   return (
     <Layout>
-      <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-32 text-center">
-        <div className="space-y-6">
-          <h1 className="text-7xl md:text-8xl font-black text-foreground">
+      <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-40 text-center">
+        <div className="space-y-8">
+          <h1 className="text-8xl md:text-9xl font-black bg-gradient-to-r from-orange-400 via-red-500 to-orange-400 bg-clip-text text-transparent">
             404
           </h1>
 
-          <h2 className="text-3xl md:text-4xl font-bold text-foreground">
+          <h2 className="text-5xl md:text-6xl font-black text-slate-100">
             Oops! Page Not Found
           </h2>
 
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
+          <p className="text-2xl text-slate-300 max-w-3xl mx-auto leading-relaxed font-semibold">
             The page you're looking for doesn't exist. It might have been moved or deleted.
             Let's get you back on track!
           </p>
 
-          <div className="pt-8 flex justify-center">
+          <div className="pt-12 flex justify-center">
             <a
               href="/"
-              className="inline-flex items-center justify-center px-8 py-3 bg-gradient-to-r from-red-600 to-orange-500 text-white font-bold rounded-lg hover:shadow-lg hover:shadow-red-500/50 transition-all"
+              className="inline-flex items-center justify-center px-10 py-5 bg-gradient-to-r from-orange-500 to-red-500 text-white font-black text-xl rounded-xl hover:shadow-lg hover:shadow-orange-500/50 transition-all transform hover:scale-105"
             >
-              <Home className="w-5 h-5 mr-2" />
+              <Home className="w-6 h-6 mr-3" />
               Back to Home
             </a>
           </div>
