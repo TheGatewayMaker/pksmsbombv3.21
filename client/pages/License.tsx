@@ -95,16 +95,16 @@ export default function LicensePage() {
         </div>
 
         {/* Features Included */}
-        <div className="bg-gradient-to-br from-slate-800/60 to-slate-900/60 rounded-2xl p-12 border border-orange-500/30 mb-20">
-          <h2 className="text-4xl font-black text-slate-100 mb-12">
+        <div className="bg-gradient-to-br from-slate-800/50 to-slate-900/50 rounded-3xl p-10 lg:p-12 border border-orange-500/30 mb-20 hover:border-orange-500/70 transition-all duration-500 hover:shadow-xl hover:shadow-orange-500/20">
+          <h2 className="text-3xl lg:text-4xl font-black text-slate-100 mb-10 lg:mb-12">
             What's Included in Every License?
           </h2>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
             {licenseFeatures.map((feature, index) => (
-              <div key={index} className="flex items-start gap-4">
-                <Check className="w-7 h-7 text-orange-400 flex-shrink-0 mt-1 font-black" />
-                <span className="text-slate-300 font-bold text-lg">
+              <div key={index} className="group flex items-start gap-4 p-4 rounded-2xl transition-all duration-300 hover:bg-orange-500/10 cursor-pointer">
+                <Check className="w-6 lg:w-7 h-6 lg:h-7 text-orange-400 flex-shrink-0 mt-1 font-black transform group-hover:scale-110 transition-transform duration-300" />
+                <span className="text-slate-300 font-medium lg:font-bold text-base lg:text-lg group-hover:text-slate-100 transition-colors duration-300">
                   {feature}
                 </span>
               </div>
