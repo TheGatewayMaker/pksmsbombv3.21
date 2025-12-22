@@ -127,10 +127,10 @@ export default function LicensePage() {
             href="https://wa.me/message/XMTA7ADWNLB2D1"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center justify-center px-12 py-5 bg-white text-orange-600 font-black text-xl rounded-xl hover:shadow-xl transition-all transform hover:scale-105"
+            className="inline-flex items-center justify-center px-8 lg:px-12 py-4 lg:py-5 bg-white text-orange-600 font-black text-sm lg:text-lg rounded-xl hover:shadow-xl transition-all transform hover:scale-105 whitespace-nowrap"
           >
-            Get Your License Key
-            <ExternalLink className="ml-3 w-6 h-6" />
+            Get License Key
+            <ExternalLink className="ml-2 lg:ml-3 w-5 lg:w-6 h-5 lg:h-6" />
           </a>
         </div>
 
