@@ -19,26 +19,26 @@ export default function DownloadPage() {
       <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
         {/* Header */}
         <div className="text-center mb-12 lg:mb-16">
-          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-black text-slate-100 mb-4 leading-tight">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-black text-slate-100 mb-4 leading-tight">
             Download from
             <span className="block bg-gradient-to-r from-orange-400 via-red-500 to-orange-400 bg-clip-text text-transparent">
               Below
             </span>
           </h1>
 
-          <p className="text-base md:text-lg lg:text-xl text-slate-300 mt-8 font-medium">
+          <p className="text-sm sm:text-base md:text-lg lg:text-xl text-slate-300 mt-6 sm:mt-8 font-medium">
             Download for your compatible Windows version below
           </p>
         </div>
 
         {/* Warning Message */}
-        <div className="bg-gradient-to-r from-yellow-500/20 to-amber-500/20 border-2 border-yellow-500/50 rounded-2xl p-8 mb-16 flex gap-6">
-          <AlertTriangle className="w-8 h-8 text-yellow-400 flex-shrink-0 mt-1" />
+        <div className="bg-gradient-to-r from-yellow-500/20 to-amber-500/20 border-2 border-yellow-500/50 rounded-2xl p-6 sm:p-8 mb-12 sm:mb-16 flex flex-col sm:flex-row gap-4 sm:gap-6">
+          <AlertTriangle className="w-6 sm:w-8 h-6 sm:h-8 text-yellow-400 flex-shrink-0 mt-1" />
           <div>
-            <h3 className="font-black text-yellow-300 mb-3 text-2xl lg:text-3xl">
+            <h3 className="font-black text-yellow-300 mb-2 sm:mb-3 text-lg sm:text-2xl lg:text-3xl">
               Important: Chrome Browser Required
             </h3>
-            <p className="text-yellow-100 text-base lg:text-lg font-semibold">
+            <p className="text-yellow-100 text-sm sm:text-base lg:text-lg font-semibold">
               Please make sure to have Chrome Browser installed on your system
               before using the tool. The application requires Chrome to function
               properly.
@@ -47,54 +47,58 @@ export default function DownloadPage() {
         </div>
 
         {/* Download Buttons */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8 mb-20">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8 mb-16 sm:mb-20">
           {/* Windows 10 */}
-          <div className="bg-gradient-to-br from-slate-800/40 to-slate-900/40 rounded-3xl p-8 lg:p-10 border border-orange-500/30 hover:border-orange-500/70 transition-all duration-300">
+          <div className="bg-gradient-to-br from-slate-800/40 to-slate-900/40 rounded-3xl p-6 sm:p-8 lg:p-10 border border-orange-500/30 hover:border-orange-500/70 transition-all duration-300">
             <div className="text-center">
-              <div className="text-6xl md:text-7xl mb-6">💻</div>
-              <h3 className="text-2xl lg:text-3xl font-black text-slate-100 mb-3">
+              <div className="text-5xl sm:text-6xl md:text-7xl mb-4 sm:mb-6">
+                💻
+              </div>
+              <h3 className="text-xl sm:text-2xl lg:text-3xl font-black text-slate-100 mb-3">
                 Windows 10
               </h3>
-              <p className="text-slate-300 mb-8 text-base lg:text-lg font-medium">
+              <p className="text-slate-300 mb-6 sm:mb-8 text-sm sm:text-base lg:text-lg font-medium">
                 Compatible with Windows 10 (all versions)
               </p>
               <button
                 onClick={handleDownload}
-                className="inline-flex items-center justify-center w-full px-6 lg:px-8 py-4 bg-gradient-to-r from-orange-500 to-red-500 text-white font-black text-sm lg:text-base rounded-xl hover:shadow-lg hover:shadow-orange-500/50 transition-all transform hover:scale-105 whitespace-nowrap"
+                className="inline-flex items-center justify-center w-full px-4 sm:px-6 lg:px-8 py-3 sm:py-4 bg-gradient-to-r from-orange-500 to-red-500 text-white font-black text-xs sm:text-sm lg:text-base rounded-xl hover:shadow-lg hover:shadow-orange-500/50 transition-all transform hover:scale-105 whitespace-nowrap"
               >
-                <Download className="w-5 lg:w-6 h-5 lg:h-6 mr-2 lg:mr-3" />
+                <Download className="w-4 sm:w-5 lg:w-6 h-4 sm:h-5 lg:h-6 mr-2 lg:mr-3" />
                 Windows 10
               </button>
-              <p className="text-xs text-slate-400 mt-6 font-semibold">
+              <p className="text-xs text-slate-400 mt-4 sm:mt-6 font-semibold">
                 File size: ~25 MB
               </p>
-              <p className="text-xs text-orange-400 mt-3 font-black">
+              <p className="text-xs text-orange-400 mt-2 sm:mt-3 font-black">
                 PK-SMS-BOMB-V3.2
               </p>
             </div>
           </div>
 
           {/* Windows 11 */}
-          <div className="bg-gradient-to-br from-slate-800/40 to-slate-900/40 rounded-3xl p-8 lg:p-10 border border-orange-500/30 hover:border-orange-500/70 transition-all duration-300">
+          <div className="bg-gradient-to-br from-slate-800/40 to-slate-900/40 rounded-3xl p-6 sm:p-8 lg:p-10 border border-orange-500/30 hover:border-orange-500/70 transition-all duration-300">
             <div className="text-center">
-              <div className="text-6xl md:text-7xl mb-6">🖥️</div>
-              <h3 className="text-2xl lg:text-3xl font-black text-slate-100 mb-3">
+              <div className="text-5xl sm:text-6xl md:text-7xl mb-4 sm:mb-6">
+                🖥️
+              </div>
+              <h3 className="text-xl sm:text-2xl lg:text-3xl font-black text-slate-100 mb-3">
                 Windows 11
               </h3>
-              <p className="text-slate-300 mb-8 text-base lg:text-lg font-medium">
+              <p className="text-slate-300 mb-6 sm:mb-8 text-sm sm:text-base lg:text-lg font-medium">
                 Compatible with Windows 11 (all versions)
               </p>
               <button
                 onClick={handleDownload}
-                className="inline-flex items-center justify-center w-full px-6 lg:px-8 py-4 bg-gradient-to-r from-orange-500 to-red-500 text-white font-black text-sm lg:text-base rounded-xl hover:shadow-lg hover:shadow-orange-500/50 transition-all transform hover:scale-105 whitespace-nowrap"
+                className="inline-flex items-center justify-center w-full px-4 sm:px-6 lg:px-8 py-3 sm:py-4 bg-gradient-to-r from-orange-500 to-red-500 text-white font-black text-xs sm:text-sm lg:text-base rounded-xl hover:shadow-lg hover:shadow-orange-500/50 transition-all transform hover:scale-105 whitespace-nowrap"
               >
-                <Download className="w-5 lg:w-6 h-5 lg:h-6 mr-2 lg:mr-3" />
+                <Download className="w-4 sm:w-5 lg:w-6 h-4 sm:h-5 lg:h-6 mr-2 lg:mr-3" />
                 Windows 11
               </button>
-              <p className="text-xs text-slate-400 mt-6 font-semibold">
+              <p className="text-xs text-slate-400 mt-4 sm:mt-6 font-semibold">
                 File size: ~25 MB
               </p>
-              <p className="text-xs text-orange-400 mt-3 font-black">
+              <p className="text-xs text-orange-400 mt-2 sm:mt-3 font-black">
                 PK-SMS-BOMB-V3.2
               </p>
             </div>
@@ -102,21 +106,57 @@ export default function DownloadPage() {
         </div>
 
         {/* License Section */}
-        <div className="bg-gradient-to-r from-orange-500/20 to-red-500/20 rounded-2xl p-12 border border-orange-500/30">
-          <h3 className="text-4xl font-black text-slate-100 mb-6">
+        <div className="bg-gradient-to-r from-orange-500/20 to-red-500/20 rounded-2xl p-8 sm:p-12 border border-orange-500/30">
+          <h3 className="text-2xl sm:text-3xl lg:text-4xl font-black text-slate-100 mb-4 sm:mb-6">
             Need to Activate Features?
           </h3>
-          <p className="text-slate-300 mb-8 text-xl font-semibold leading-relaxed">
+          <p className="text-slate-300 mb-6 sm:mb-8 text-sm sm:text-base lg:text-lg lg:text-xl font-semibold leading-relaxed">
             To use all features of the SMS Bomber tool, you'll need to purchase
             a license key. Visit our License page to see all available plans and
             get your key.
           </p>
           <Link
             to="/license"
-            className="inline-flex items-center justify-center px-8 lg:px-10 py-4 bg-gradient-to-r from-orange-500 to-red-500 text-white font-black text-sm lg:text-base rounded-xl hover:shadow-lg hover:shadow-orange-500/50 transition-all whitespace-nowrap"
+            className="inline-flex items-center justify-center px-6 sm:px-8 lg:px-10 py-3 sm:py-4 bg-gradient-to-r from-orange-500 to-red-500 text-white font-black text-xs sm:text-sm lg:text-base rounded-xl hover:shadow-lg hover:shadow-orange-500/50 transition-all whitespace-nowrap"
           >
             View License Plans
           </Link>
+        </div>
+
+        {/* SEO Hidden Content */}
+        <div className="hidden mt-8" data-seo="true" role="doc-note">
+          <h2>Download SMS Bomber APK & Windows - Free SMS Spammer Tool</h2>
+          <p>
+            Download SMS Bomber now - Pakistan's best SMS spammer tool for all
+            devices. Our fast SMS bomber APK supports all operators: Download
+            SMS Bomber for JAZZ, ZONG, UFONE, WARID, and TELENOR. Get SMS Bomber
+            APK Mod, SMS Bomber App Mod APK, and SMS Bomber APK Download Latest
+            Version. Available for Windows 10, Windows 11, Android devices, iOS,
+            and iPhone SMS Spammer users.
+          </p>
+          <p>
+            SMS Bomber APK Mod Download: V1.0, V2, V7, V9 versions available.
+            Download SMS Spammer APK completely free. Android SMS Spammer app
+            with latest features. iPhone SMS Spammer alternative included. SMS
+            Bomber 2024, SMS Bomber 2025, SMS Bomber 2026 versions. Auto SMS
+            Spammer and SMS Caster integrated. APKPure SMS Spammer compatible.
+          </p>
+          <p>
+            Download SMS Bomber platform variations: Windows SMS Bomber
+            download, Android SMS Bomber APK download, iOS SMS Spammer app
+            download. Phone SMS Spammer for all mobile devices. Bulk SMS Spammer
+            with SMS API Pakistan integration. Download SMS Bomber Mod APK
+            latest version. Cheap SMS API Pakistan included. Web 2 SMS and SMS
+            Punch alternative tools available.
+          </p>
+          <p>
+            SMS Bomber download free with no hidden charges or registration
+            required. Simply download, install Chrome browser, and start sending
+            unlimited SMS pranks instantly. Best SMS Bomber free download in
+            Pakistan. SMS Spammer 2024 and 2025 versions ready. Download SMS
+            Bombing tool now with 100% success rate guaranteed. SMS Bomber tool
+            download for all Windows, Android, and iOS devices.
+          </p>
         </div>
       </section>
     </Layout>

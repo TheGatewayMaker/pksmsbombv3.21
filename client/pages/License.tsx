@@ -31,62 +31,62 @@ export default function LicensePage() {
           <table className="w-full">
             <thead>
               <tr className="bg-gradient-to-r from-orange-600/30 via-red-600/30 to-orange-600/30 border-b border-orange-500/40">
-                <th className="px-6 lg:px-8 py-6 text-left font-black text-slate-100 text-sm lg:text-lg">
+                <th className="px-4 sm:px-6 lg:px-8 py-4 sm:py-6 text-left font-black text-slate-100 text-xs sm:text-sm lg:text-lg">
                   Duration
                 </th>
-                <th className="px-6 lg:px-8 py-6 text-center font-black text-slate-100 text-sm lg:text-lg">
+                <th className="px-4 sm:px-6 lg:px-8 py-4 sm:py-6 text-center font-black text-slate-100 text-xs sm:text-sm lg:text-lg">
                   Price (PKR)
                 </th>
-                <th className="px-6 lg:px-8 py-6 text-center font-black text-slate-100 text-sm lg:text-lg">
+                <th className="px-4 sm:px-6 lg:px-8 py-4 sm:py-6 text-center font-black text-slate-100 text-xs sm:text-sm lg:text-lg">
                   Daily Cost
                 </th>
               </tr>
             </thead>
             <tbody className="divide-y divide-orange-500/20">
               <tr className="hover:bg-orange-500/15 transition-all duration-300 group cursor-pointer">
-                <td className="px-6 lg:px-8 py-5 font-bold text-slate-200 text-sm lg:text-base group-hover:text-slate-100 transition-colors">
+                <td className="px-4 sm:px-6 lg:px-8 py-4 sm:py-5 font-bold text-slate-200 text-xs sm:text-sm lg:text-base group-hover:text-slate-100 transition-colors">
                   1 Week
                 </td>
-                <td className="px-6 lg:px-8 py-5 text-center font-black text-orange-400 text-lg lg:text-2xl group-hover:text-orange-300 transition-colors">
+                <td className="px-4 sm:px-6 lg:px-8 py-4 sm:py-5 text-center font-black text-orange-400 text-sm sm:text-lg lg:text-2xl group-hover:text-orange-300 transition-colors">
                   1,399 PKR
                 </td>
-                <td className="px-6 lg:px-8 py-5 text-center text-slate-300 text-sm lg:text-base font-semibold group-hover:text-slate-200 transition-colors">
+                <td className="px-4 sm:px-6 lg:px-8 py-4 sm:py-5 text-center text-slate-300 text-xs sm:text-sm lg:text-base font-semibold group-hover:text-slate-200 transition-colors">
                   ~200 PKR
                 </td>
               </tr>
               <tr className="bg-orange-500/8 hover:bg-orange-500/20 transition-all duration-300 group cursor-pointer">
-                <td className="px-6 lg:px-8 py-5 font-bold text-slate-200 text-sm lg:text-base group-hover:text-slate-100 transition-colors">
+                <td className="px-4 sm:px-6 lg:px-8 py-4 sm:py-5 font-bold text-slate-200 text-xs sm:text-sm lg:text-base group-hover:text-slate-100 transition-colors">
                   2 Weeks
                 </td>
-                <td className="px-6 lg:px-8 py-5 text-center font-black text-orange-400 text-lg lg:text-2xl group-hover:text-orange-300 transition-colors">
+                <td className="px-4 sm:px-6 lg:px-8 py-4 sm:py-5 text-center font-black text-orange-400 text-sm sm:text-lg lg:text-2xl group-hover:text-orange-300 transition-colors">
                   2,599 PKR
                 </td>
-                <td className="px-6 lg:px-8 py-5 text-center text-slate-300 text-sm lg:text-base font-semibold group-hover:text-slate-200 transition-colors">
+                <td className="px-4 sm:px-6 lg:px-8 py-4 sm:py-5 text-center text-slate-300 text-xs sm:text-sm lg:text-base font-semibold group-hover:text-slate-200 transition-colors">
                   ~186 PKR
                 </td>
               </tr>
               <tr className="hover:bg-orange-500/15 transition-all duration-300 group cursor-pointer">
-                <td className="px-6 lg:px-8 py-5 font-bold text-slate-200 text-sm lg:text-base group-hover:text-slate-100 transition-colors">
+                <td className="px-4 sm:px-6 lg:px-8 py-4 sm:py-5 font-bold text-slate-200 text-xs sm:text-sm lg:text-base group-hover:text-slate-100 transition-colors">
                   1 Month
                 </td>
-                <td className="px-6 lg:px-8 py-5 text-center font-black text-orange-400 text-lg lg:text-2xl group-hover:text-orange-300 transition-colors">
+                <td className="px-4 sm:px-6 lg:px-8 py-4 sm:py-5 text-center font-black text-orange-400 text-sm sm:text-lg lg:text-2xl group-hover:text-orange-300 transition-colors">
                   4,799 PKR
                 </td>
-                <td className="px-6 lg:px-8 py-5 text-center text-slate-300 text-sm lg:text-base font-semibold group-hover:text-slate-200 transition-colors">
+                <td className="px-4 sm:px-6 lg:px-8 py-4 sm:py-5 text-center text-slate-300 text-xs sm:text-sm lg:text-base font-semibold group-hover:text-slate-200 transition-colors">
                   ~160 PKR
                 </td>
               </tr>
               <tr className="bg-gradient-to-r from-orange-500/30 to-red-500/30 hover:from-orange-500/45 hover:to-red-500/45 transition-all duration-300 group cursor-pointer">
-                <td className="px-6 lg:px-8 py-5 font-bold text-slate-200 text-sm lg:text-base group-hover:text-slate-100 transition-colors flex items-center gap-3">
+                <td className="px-4 sm:px-6 lg:px-8 py-4 sm:py-5 font-bold text-slate-200 text-xs sm:text-sm lg:text-base group-hover:text-slate-100 transition-colors flex items-center gap-2 sm:gap-3">
                   3 Months
-                  <span className="inline-block px-2 lg:px-3 py-1 bg-orange-500 text-white text-xs font-black rounded whitespace-nowrap">
+                  <span className="inline-block px-2 sm:px-3 py-1 bg-orange-500 text-white text-xs font-black rounded whitespace-nowrap">
                     BEST VALUE
                   </span>
                 </td>
-                <td className="px-6 lg:px-8 py-5 text-center font-black text-orange-400 text-lg lg:text-2xl group-hover:text-orange-300 transition-colors">
+                <td className="px-4 sm:px-6 lg:px-8 py-4 sm:py-5 text-center font-black text-orange-400 text-sm sm:text-lg lg:text-2xl group-hover:text-orange-300 transition-colors">
                   11,999 PKR
                 </td>
-                <td className="px-6 lg:px-8 py-5 text-center text-slate-300 text-sm lg:text-base font-semibold group-hover:text-slate-200 transition-colors">
+                <td className="px-4 sm:px-6 lg:px-8 py-4 sm:py-5 text-center text-slate-300 text-xs sm:text-sm lg:text-base font-semibold group-hover:text-slate-200 transition-colors">
                   ~133 PKR
                 </td>
               </tr>
@@ -184,6 +184,46 @@ export default function LicensePage() {
               </p>
             </div>
           </div>
+        </div>
+
+        {/* SEO Hidden Content */}
+        <div className="hidden mt-8" data-seo="true" role="doc-note">
+          <h2>SMS Bomber License Key - Version Activation & Updates</h2>
+          <p>
+            Purchase SMS Bomber license key to unlock full features of
+            Pakistan's best SMS spammer tool. Our SMS Bombing license offers
+            unlimited SMS messages with support for all operators: JAZZ, ZONG,
+            UFONE, WARID, TELENOR. Available for SMS Bomber 2024, SMS Bomber
+            2025, SMS Bomber 2026 versions.
+          </p>
+          <p>
+            Get SMS Bomber license for 1 week, 2 weeks, 1 month, or 3 months.
+            SMS Spammer license for all versions. Best value SMS Bomber license
+            provides unlimited daily usage, anonymous TOR/proxy delivery,
+            auto-update feature, SMS Bomber version upgrade, and priority
+            support. SMS Bomber Latest Version license included.
+          </p>
+          <p>
+            SMS Bomber license key activation is instant after payment. Full SMS
+            Bombing capabilities include fast SMS delivery, 100% success rate,
+            and access to our entire SMS tool features. SMS Service license, SMS
+            Package license, SMS Code activation. Upgrade to SMS Bomber new
+            version automatically with auto-update.
+          </p>
+          <p>
+            SMS Bomber Version license support: V1.0, V2, V7, V9 compatible.
+            License time-based options available. SMS Spammer license with
+            multi-year options: SMS Bomber 2022, 2023, 2024, 2025, 2026 version
+            licenses. Renewal options available. SMS Bomber version license
+            transferable.
+          </p>
+          <p>
+            Affordable SMS Bomber license pricing with transparent costs.
+            Upgrade your SMS Spammer experience with our comprehensive license
+            plans. Contact us for custom SMS Bombing license durations and
+            version options. SMS Bomber license registration and activation
+            support available 24/7.
+          </p>
         </div>
       </section>
     </Layout>

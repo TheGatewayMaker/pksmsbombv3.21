@@ -1,9 +1,10 @@
 import { Link } from "react-router-dom";
+import MobileNav from "./MobileNav";
 
 export default function Header() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 backdrop-blur-md bg-slate-900/30 border-b border-orange-500/30">
-      <nav className="max-w-7xl mx-auto px-3 sm:px-4 lg:px-8 h-16 sm:h-20 flex items-center justify-between">
+      <nav className="max-w-7xl mx-auto px-3 sm:px-4 lg:px-8 h-16 sm:h-20 flex items-center justify-between relative">
         <Link
           to="/"
           className="flex items-center gap-2 sm:gap-3 hover:opacity-80 transition-opacity flex-shrink-0"
@@ -18,7 +19,8 @@ export default function Header() {
           </div>
         </Link>
 
-        <ul className="flex items-center gap-3 sm:gap-6 lg:gap-8 text-xs sm:text-sm lg:text-base font-semibold">
+        {/* Desktop Navigation */}
+        <ul className="hidden lg:flex items-center gap-8 text-base font-semibold">
           <li>
             <Link
               to="/"
@@ -52,6 +54,9 @@ export default function Header() {
             </Link>
           </li>
         </ul>
+
+        {/* Mobile Navigation */}
+        <MobileNav />
       </nav>
     </header>
   );

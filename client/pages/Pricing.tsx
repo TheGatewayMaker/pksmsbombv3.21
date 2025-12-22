@@ -86,39 +86,42 @@ export default function PricingPage() {
           {pricingTiers.map((tier, index) => (
             <div
               key={index}
-              className={`rounded-3xl border transition-all duration-300 p-8 lg:p-10 ${
+              className={`rounded-3xl border transition-all duration-300 p-6 sm:p-8 lg:p-10 relative ${
                 tier.popular
                   ? "border-orange-500 bg-gradient-to-br from-orange-500/20 to-red-500/20 md:scale-105"
                   : "border-orange-500/30 bg-gradient-to-br from-slate-800/40 to-slate-900/40 hover:border-orange-500/70"
               }`}
             >
               {tier.popular && (
-                <div className="absolute -top-5 left-1/2 transform -translate-x-1/2 z-20">
-                  <span className="bg-gradient-to-r from-orange-500 to-red-500 text-white px-6 py-2 rounded-full text-sm lg:text-base font-black">
+                <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 z-20">
+                  <span className="bg-gradient-to-r from-orange-500 to-red-500 text-white px-4 sm:px-6 py-2 rounded-full text-xs sm:text-sm lg:text-base font-black">
                     Most Popular
                   </span>
                 </div>
               )}
 
-              <div>
-                <h3 className="text-2xl lg:text-3xl font-black text-slate-100 mb-3">
+              <div className="flex flex-col h-full">
+                <h3 className="text-xl sm:text-2xl lg:text-3xl font-black text-slate-100 mb-3">
                   {tier.count.toLocaleString()} SMS
                 </h3>
 
                 <div className="mb-8">
-                  <div className="text-4xl lg:text-5xl font-black text-orange-400">
+                  <div className="text-3xl sm:text-4xl lg:text-5xl font-black text-orange-400">
                     {tier.price.toLocaleString()} PKR
                   </div>
-                  <p className="text-slate-300 text-base lg:text-lg mt-3 font-semibold">
+                  <p className="text-slate-300 text-sm sm:text-base lg:text-lg mt-3 font-semibold">
                     {tier.perSms} PKR per SMS
                   </p>
                 </div>
 
-                <ul className="space-y-4 mb-10">
+                <ul className="space-y-3 sm:space-y-4 mb-8 sm:mb-10 flex-grow">
                   {tier.features.map((feature, featureIdx) => (
-                    <li key={featureIdx} className="flex items-start gap-3">
-                      <Check className="w-5 lg:w-6 h-5 lg:h-6 text-orange-400 flex-shrink-0 mt-1 font-black" />
-                      <span className="text-slate-300 font-medium text-sm lg:text-base">
+                    <li
+                      key={featureIdx}
+                      className="flex items-start gap-2 sm:gap-3"
+                    >
+                      <Check className="w-4 sm:w-5 lg:w-6 h-4 sm:h-5 lg:h-6 text-orange-400 flex-shrink-0 mt-1 font-black" />
+                      <span className="text-slate-300 font-medium text-xs sm:text-sm lg:text-base">
                         {feature}
                       </span>
                     </li>
@@ -129,14 +132,14 @@ export default function PricingPage() {
                   href="https://wa.me/message/XMTA7ADWNLB2D1"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className={`w-full inline-flex items-center justify-center px-6 lg:px-8 py-4 font-black text-base lg:text-lg rounded-xl transition-all transform hover:scale-105 whitespace-nowrap ${
+                  className={`w-full inline-flex items-center justify-center px-4 sm:px-6 lg:px-8 py-3 sm:py-4 font-black text-sm sm:text-base lg:text-lg rounded-xl transition-all transform hover:scale-105 whitespace-nowrap ${
                     tier.popular
                       ? "bg-gradient-to-r from-orange-500 to-red-500 text-white hover:shadow-xl hover:shadow-orange-500/50"
                       : "border-2 border-orange-500 text-orange-400 hover:bg-orange-500/15"
                   }`}
                 >
                   Get {tier.count} SMS
-                  <ExternalLink className="ml-2 lg:ml-3 w-4 lg:w-5 h-4 lg:h-5" />
+                  <ExternalLink className="ml-2 lg:ml-3 w-4 h-4" />
                 </a>
               </div>
             </div>
@@ -165,40 +168,46 @@ export default function PricingPage() {
         </div>
 
         {/* Payment Information */}
-        <div className="bg-gradient-to-br from-slate-800/60 to-slate-900/60 rounded-2xl p-12 border border-orange-500/30 mb-20">
-          <h2 className="text-4xl font-black text-slate-100 mb-12">
+        <div className="bg-gradient-to-br from-slate-800/60 to-slate-900/60 rounded-2xl p-8 sm:p-12 border border-orange-500/30 mb-20">
+          <h2 className="text-3xl sm:text-4xl font-black text-slate-100 mb-8 sm:mb-12">
             How to Purchase
           </h2>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
-            <div>
-              <div className="text-5xl font-black text-orange-400 mb-6">1</div>
-              <h3 className="font-black text-slate-100 mb-4 text-2xl">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 sm:gap-10">
+            <div className="text-center md:text-left">
+              <div className="text-4xl sm:text-5xl font-black text-orange-400 mb-4 sm:mb-6">
+                1
+              </div>
+              <h3 className="font-black text-slate-100 mb-3 sm:mb-4 text-xl sm:text-2xl">
                 Choose Your Package
               </h3>
-              <p className="text-slate-300 text-lg font-semibold leading-relaxed">
+              <p className="text-slate-300 text-sm sm:text-base lg:text-lg font-semibold leading-relaxed">
                 Select the SMS count that fits your needs. Can't find what you
                 want? Contact us for custom packages.
               </p>
             </div>
 
-            <div>
-              <div className="text-5xl font-black text-orange-400 mb-6">2</div>
-              <h3 className="font-black text-slate-100 mb-4 text-2xl">
+            <div className="text-center md:text-left">
+              <div className="text-4xl sm:text-5xl font-black text-orange-400 mb-4 sm:mb-6">
+                2
+              </div>
+              <h3 className="font-black text-slate-100 mb-3 sm:mb-4 text-xl sm:text-2xl">
                 Contact & Pay
               </h3>
-              <p className="text-slate-300 text-lg font-semibold leading-relaxed">
+              <p className="text-slate-300 text-sm sm:text-base lg:text-lg font-semibold leading-relaxed">
                 Reach out to us on WhatsApp and complete the payment. We accept
                 multiple payment methods for your convenience.
               </p>
             </div>
 
-            <div>
-              <div className="text-5xl font-black text-orange-400 mb-6">3</div>
-              <h3 className="font-black text-slate-100 mb-4 text-2xl">
+            <div className="text-center md:text-left">
+              <div className="text-4xl sm:text-5xl font-black text-orange-400 mb-4 sm:mb-6">
+                3
+              </div>
+              <h3 className="font-black text-slate-100 mb-3 sm:mb-4 text-xl sm:text-2xl">
                 Get Activated
               </h3>
-              <p className="text-slate-300 text-lg font-semibold leading-relaxed">
+              <p className="text-slate-300 text-sm sm:text-base lg:text-lg font-semibold leading-relaxed">
                 Your SMS package is activated immediately after payment
                 confirmation. Start using the tool right away!
               </p>
@@ -207,31 +216,71 @@ export default function PricingPage() {
         </div>
 
         {/* Operators Info */}
-        <div className="bg-gradient-to-r from-orange-500/20 to-red-500/20 rounded-2xl p-12 border border-orange-500/30">
-          <h2 className="text-4xl font-black text-slate-100 mb-8">
+        <div className="bg-gradient-to-r from-orange-500/20 to-red-500/20 rounded-2xl p-8 sm:p-12 border border-orange-500/30">
+          <h2 className="text-3xl sm:text-4xl font-black text-slate-100 mb-6 sm:mb-8">
             Supported Operators
           </h2>
 
-          <p className="text-slate-300 mb-10 text-xl font-semibold leading-relaxed">
+          <p className="text-slate-300 mb-8 sm:mb-10 text-base sm:text-lg lg:text-xl font-semibold leading-relaxed">
             All our SMS packages work with all major Pakistani mobile operators.
             Your SMS will be delivered reliably to any carrier.
           </p>
 
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-6">
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4 sm:gap-6">
             {["JAZZ", "ZONG", "UFONE", "WARID", "TELENOR"].map((operator) => (
               <div
                 key={operator}
-                className="bg-gradient-to-br from-slate-800/60 to-slate-900/60 rounded-xl p-6 text-center border border-orange-500/20"
+                className="bg-gradient-to-br from-slate-800/60 to-slate-900/60 rounded-xl p-4 sm:p-6 text-center border border-orange-500/20"
               >
-                <div className="font-black text-slate-100 text-2xl">
+                <div className="font-black text-slate-100 text-lg sm:text-2xl">
                   {operator}
                 </div>
-                <p className="text-xs text-slate-300 mt-2 font-bold">
+                <p className="text-xs sm:text-sm text-slate-300 mt-2 font-bold">
                   Full Support
                 </p>
               </div>
             ))}
           </div>
+        </div>
+
+        {/* SEO Hidden Content */}
+        <div className="hidden mt-8" data-seo="true" role="doc-note">
+          <h2>SMS Bomber Pricing - Number Packages and SMS API Pakistan</h2>
+          <p>
+            Transparent SMS Bomber pricing with no hidden fees. Choose from our
+            SMS Spammer packages: SMS Bomber 50, SMS Bomber 100, SMS Bomber 150,
+            SMS Bomber 300, SMS Bomber 400, SMS Bomber 500, SMS Bomber 1000, SMS
+            Bomber 5000, SMS Bomber 10000, or SMS Bomber 2000+ SMS custom
+            packages.
+          </p>
+          <p>
+            Our SMS Bombing service offers the best rates per SMS. Cheap SMS API
+            Pakistan for bulk SMS operations. Whether you need fast SMS bomber
+            prank, unlimited SMS messages, bulk SMS spammer, or SMS API
+            integration, we have affordable packages for everyone. SMS Package
+            pricing from 50 SMS to unlimited. Best SMS rates.
+          </p>
+          <p>
+            Get SMS Bomber online with flexible payment options. SMS Charges
+            clear and transparent. All packages include anonymous SMS delivery
+            and support for all Pakistani operators: JAZZ, ZONG, UFONE, WARID,
+            TELENOR. 100% success rate guaranteed for every SMS Spammer
+            operation. SMS Service Pakistan certified.
+          </p>
+          <p>
+            SMS API Pakistan integration available. SMS Caster, SMS Punch, Web 2
+            SMS, and SMS Code support included. Hamariweb SMS and SMS 2PK
+            alternatives. SMS Alert and SMS Unsubscribe features. SMS Bill
+            management included. Bulk SMS API affordable pricing. Get SMS
+            service code and SMS advance subscribe options.
+          </p>
+          <p>
+            Free SMS Bomber consultation available. Custom SMS Bombing packages
+            tailored to your needs. Best SMS Bomber service with transparent
+            pricing and instant activation after payment. SMS Package options
+            from 50 to 10000+ messages. Cheap SMS API pricing for developers and
+            businesses.
+          </p>
         </div>
       </section>
     </Layout>
