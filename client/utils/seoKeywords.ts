@@ -149,11 +149,64 @@ export const seoKeywords2 = {
   ],
 };
 
-// Combined keywords string for meta tags
+// Combined keywords string for meta tags - Set 1 only
 export const combinedKeywords = Object.values(seoKeywords)
   .flat()
   .filter((v, i, a) => a.indexOf(v) === i)
   .join(", ");
+
+// Combined keywords string - Set 2 only
+export const combinedKeywords2 = Object.values(seoKeywords2)
+  .flat()
+  .filter((v, i, a) => a.indexOf(v) === i)
+  .join(", ");
+
+// Merged all keywords from both sets
+export const allKeywords = [
+  ...Object.values(seoKeywords).flat(),
+  ...Object.values(seoKeywords2).flat(),
+];
+
+// Combined keywords string for maximum SEO - All keywords merged
+export const combinedAllKeywords = allKeywords
+  .filter((v, i, a) => a.indexOf(v) === i)
+  .join(", ");
+
+// Page-specific keyword collections
+export const pageSpecificKeywords = {
+  home: [
+    ...seoKeywords.main,
+    ...seoKeywords.operators,
+    ...seoKeywords2.apkVariations.slice(0, 3),
+    ...seoKeywords2.regionalKeywords,
+    ...seoKeywords2.longtailKeywords.slice(0, 3),
+  ],
+  download: [
+    ...seoKeywords.variations,
+    ...seoKeywords2.apkVariations,
+    ...seoKeywords2.platformKeywords,
+    ...seoKeywords2.versionTerms,
+    "Download SMS Bomber Now",
+    "Download SMS Spammer Free",
+  ],
+  pricing: [
+    ...seoKeywords.features,
+    ...seoKeywords2.numberVariations,
+    ...seoKeywords2.apiKeywords,
+    "SMS Pricing",
+    "SMS Package Price",
+    "Bulk SMS Service",
+    "Best SMS Rates",
+  ],
+  license: [
+    ...seoKeywords.features,
+    ...seoKeywords2.versionTerms,
+    ...seoKeywords2.serviceKeywords,
+    "License Key",
+    "SMS Bomber Activation",
+    "License Duration",
+  ],
+};
 
 // Schema markup generators
 export const generateFAQSchema = () => {
