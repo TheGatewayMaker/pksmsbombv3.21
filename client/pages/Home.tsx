@@ -59,10 +59,15 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Operators Slider Section */}
+      <section className="py-16 overflow-hidden border-b border-orange-500/20">
+        <OperatorsSlider />
+      </section>
+
       {/* Features Section */}
       <section className="bg-gradient-to-b from-transparent via-slate-800/40 to-slate-900/60 backdrop-blur-xl border-y border-orange-500/20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-28">
-          <h2 className="text-6xl md:text-7xl font-black text-center text-slate-100 mb-20">
+          <h2 className="text-5xl md:text-6xl lg:text-7xl font-black text-center text-slate-100 mb-20">
             Why Choose Us?
           </h2>
 
