@@ -3,22 +3,22 @@ import { Link } from "react-router-dom";
 export default function Header() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 backdrop-blur-2xl bg-gradient-to-b from-slate-900/95 to-slate-900/80 border-b border-orange-500/20">
-      <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      <nav className="max-w-7xl mx-auto px-3 sm:px-4 lg:px-8 h-16 sm:h-20 flex items-center justify-between">
         <Link
           to="/"
-          className="flex items-center gap-3 hover:opacity-80 transition-opacity"
+          className="flex items-center gap-2 sm:gap-3 hover:opacity-80 transition-opacity flex-shrink-0"
         >
           <img
             src="https://cdn.builder.io/api/v1/image/assets%2F21e53940686840dfab4f5a6e4a2a1205%2F0bf09163b43040bf9014564502559b38?format=webp&width=100"
             alt="SMS Bomber"
-            className="h-12 w-12 drop-shadow-lg"
+            className="h-10 sm:h-12 w-10 sm:w-12 drop-shadow-lg"
           />
-          <div className="text-3xl font-black bg-gradient-to-r from-orange-400 via-red-500 to-orange-400 bg-clip-text text-transparent">
+          <div className="text-xl sm:text-2xl lg:text-3xl font-black bg-gradient-to-r from-orange-400 via-red-500 to-orange-400 bg-clip-text text-transparent">
             SMS Bomber
           </div>
         </Link>
 
-        <ul className="flex items-center gap-8 text-base font-semibold">
+        <ul className="flex items-center gap-3 sm:gap-6 lg:gap-8 text-xs sm:text-sm lg:text-base font-semibold">
           <li>
             <Link
               to="/"
