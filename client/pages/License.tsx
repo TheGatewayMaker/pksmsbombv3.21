@@ -15,12 +15,12 @@ export default function LicensePage() {
     <Layout>
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
         {/* Header */}
-        <div className="text-center mb-24">
-          <h1 className="text-7xl md:text-8xl font-black text-slate-100 mb-6 leading-tight">
+        <div className="text-center mb-20 lg:mb-24 px-2">
+          <h1 className="text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-black text-slate-100 mb-6 leading-tight">
             License Pricing
           </h1>
 
-          <p className="text-2xl text-slate-300 max-w-3xl mx-auto mt-8 font-semibold leading-relaxed">
+          <p className="text-base md:text-lg lg:text-xl text-slate-300 max-w-3xl mx-auto mt-8 font-medium leading-relaxed">
             Choose the license duration that works best for you. All licenses
             include full access to all features and priority support.
           </p>
