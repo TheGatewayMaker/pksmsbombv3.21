@@ -6,10 +6,12 @@ export default function OperatorsSlider() {
     "WARID",
     "UFONE",
     "ZONG",
+    "TELENOR",
     "JAZZ",
     "WARID",
     "UFONE",
     "ZONG",
+    "TELENOR",
     "JAZZ",
     "WARID",
   ];
