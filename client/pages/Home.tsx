@@ -66,7 +66,7 @@ export default function Home() {
       <section className="py-12 border-b border-orange-500/20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-wrap justify-center items-center gap-6 lg:gap-10">
-            {["JAZZ", "ZONG", "UFONE", "WARID"].map((operator) => (
+            {["JAZZ", "ZONG", "UFONE", "WARID", "TELENOR"].map((operator) => (
               <div
                 key={operator}
                 className="text-lg lg:text-2xl font-black text-white whitespace-nowrap"
