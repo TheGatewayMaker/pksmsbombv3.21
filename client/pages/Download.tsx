@@ -108,7 +108,7 @@ export default function DownloadPage() {
           </p>
           <Link
             to="/license"
-            className="inline-flex items-center justify-center px-10 py-4 bg-gradient-to-r from-orange-500 to-red-500 text-white font-black text-lg rounded-xl hover:shadow-lg hover:shadow-orange-500/50 transition-all"
+            className="inline-flex items-center justify-center px-8 lg:px-10 py-4 bg-gradient-to-r from-orange-500 to-red-500 text-white font-black text-sm lg:text-base rounded-xl hover:shadow-lg hover:shadow-orange-500/50 transition-all whitespace-nowrap"
           >
             View License Plans
           </Link>
