@@ -1,5 +1,6 @@
 import Layout from "@/components/Layout";
 import { ExternalLink } from "lucide-react";
+import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
@@ -45,12 +46,12 @@ export default function Home() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-            <a
-              href="/download"
+            <Link
+              to="/download"
               className="inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-orange-500 to-red-500 text-white font-black rounded-xl hover:shadow-2xl hover:shadow-orange-500/50 transition-all duration-300 transform hover:scale-105 whitespace-nowrap"
             >
               Download Now
-            </a>
+            </Link>
             <a
               href="https://wa.me/message/XMTA7ADWNLB2D1"
               target="_blank"
@@ -255,12 +256,12 @@ export default function Home() {
             Download our tool today and start pranking your friends with
             unlimited SMS messages. It's easy, secure, and completely anonymous.
           </p>
-          <a
-            href="/download"
+          <Link
+            to="/download"
             className="inline-flex items-center justify-center px-8 lg:px-12 py-4 lg:py-5 bg-white text-orange-600 font-black text-sm lg:text-lg rounded-xl hover:shadow-2xl transition-all transform hover:scale-105 whitespace-nowrap"
           >
             Download Now
-          </a>
+          </Link>
         </div>
       </section>
 
