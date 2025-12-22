@@ -113,48 +113,6 @@ export default function DownloadPage() {
             View License Plans
           </Link>
         </div>
-
-        {/* Instructions */}
-        <div className="mt-20 pt-16 border-t border-orange-500/20">
-          <h3 className="text-4xl font-black text-slate-100 mb-10">
-            Installation Instructions
-          </h3>
-          <ol className="space-y-6 text-slate-300">
-            <li className="flex gap-6">
-              <span className="font-black text-orange-400 text-2xl min-w-fit">
-                1.
-              </span>
-              <span className="text-xl font-semibold leading-relaxed">
-                Download the .exe file for your Windows version above
-              </span>
-            </li>
-            <li className="flex gap-6">
-              <span className="font-black text-orange-400 text-2xl min-w-fit">
-                2.
-              </span>
-              <span className="text-xl font-semibold leading-relaxed">
-                Make sure Chrome browser is installed on your system
-              </span>
-            </li>
-            <li className="flex gap-6">
-              <span className="font-black text-orange-400 text-2xl min-w-fit">
-                3.
-              </span>
-              <span className="text-xl font-semibold leading-relaxed">
-                Run the installer and follow the on-screen instructions
-              </span>
-            </li>
-            <li className="flex gap-6">
-              <span className="font-black text-orange-400 text-2xl min-w-fit">
-                4.
-              </span>
-              <span className="text-xl font-semibold leading-relaxed">
-                Launch the application and purchase a license to unlock full
-                features
-              </span>
-            </li>
-          </ol>
-        </div>
       </section>
     </Layout>
   );
