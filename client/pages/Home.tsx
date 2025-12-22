@@ -7,54 +7,58 @@ export default function Home() {
     <Layout>
       {/* Hero Section */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-32 lg:py-48">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
-          {/* Content */}
-          <div className="space-y-6 lg:space-y-8 text-center lg:text-left">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-black text-slate-100 leading-tight">
-              Pakistan's First
-              <span className="block bg-gradient-to-r from-orange-400 via-red-500 to-orange-400 bg-clip-text text-transparent">
-                SMS Spammer Tool
-              </span>
-            </h1>
-
-            <p className="text-base md:text-lg lg:text-xl text-slate-300 max-w-2xl leading-relaxed font-medium mx-auto lg:mx-0">
-              Automated SMS Bomber made specially to prank your friends. Send
-              unlimited SMS messages with our secure, anonymous, and easy-to-use
-              tool. No technical knowledge required.
-            </p>
-
-            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start pt-8">
-              <a
-                href="/download"
-                className="inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-orange-500 to-red-500 text-white font-black rounded-xl hover:shadow-2xl hover:shadow-orange-500/50 transition-all duration-300 transform hover:scale-105 whitespace-nowrap"
-              >
-                Download Now
-              </a>
-              <a
-                href="https://wa.me/message/XMTA7ADWNLB2D1"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center justify-center px-8 py-4 border-3 border-orange-500 text-orange-400 font-black rounded-xl hover:bg-orange-500/10 transition-all duration-300 whitespace-nowrap"
-              >
-                Contact WhatsApp
-                <ExternalLink className="ml-2 w-4 h-4" />
-              </a>
+        <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-12">
+          {/* Content and Image - Integrated Layout */}
+          <div className="flex-1">
+            <div className="flex flex-col items-center lg:items-start">
+              <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-black text-slate-100 leading-tight text-center lg:text-left">
+                Pakistan's First
+                <span className="block bg-gradient-to-r from-orange-400 via-red-500 to-orange-400 bg-clip-text text-transparent">
+                  SMS Spammer Tool
+                </span>
+              </h1>
             </div>
           </div>
 
-          {/* Pumpkin Image */}
-          <div className="hidden lg:flex justify-center items-center">
-            <div className="relative w-full max-w-md">
-              <div className="absolute inset-0 bg-gradient-to-r from-orange-500/20 to-red-500/20 rounded-3xl blur-3xl"></div>
+          {/* Pumpkin Image - Integrated with Text */}
+          <div className="w-full lg:w-auto flex justify-center lg:justify-end">
+            <div className="w-48 md:w-64 lg:w-72">
               <img
                 src="https://cdn.builder.io/api/v1/image/assets%2F21782784306240369f0bf06000b72d16%2F55759bbe1b394328a855e8d52c024695?format=webp&width=800"
                 alt="SMS Bomber Pumpkin"
-                className="relative w-full h-auto drop-shadow-2xl"
+                className="w-full h-auto drop-shadow-2xl"
                 style={{
                   filter: 'drop-shadow(0 25px 50px rgba(249, 115, 22, 0.3))',
                 }}
               />
             </div>
+          </div>
+        </div>
+
+        {/* Description and CTAs */}
+        <div className="mt-12 text-center lg:text-left max-w-3xl mx-auto lg:mx-0">
+          <p className="text-base md:text-lg lg:text-xl text-slate-300 leading-relaxed font-medium mb-8">
+            Automated SMS Bomber made specially to prank your friends. Send
+            unlimited SMS messages with our secure, anonymous, and easy-to-use
+            tool. No technical knowledge required.
+          </p>
+
+          <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+            <a
+              href="/download"
+              className="inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-orange-500 to-red-500 text-white font-black rounded-xl hover:shadow-2xl hover:shadow-orange-500/50 transition-all duration-300 transform hover:scale-105 whitespace-nowrap"
+            >
+              Download Now
+            </a>
+            <a
+              href="https://wa.me/message/XMTA7ADWNLB2D1"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center px-8 py-4 border-3 border-orange-500 text-orange-400 font-black rounded-xl hover:bg-orange-500/10 transition-all duration-300 whitespace-nowrap"
+            >
+              Contact WhatsApp
+              <ExternalLink className="ml-2 w-4 h-4" />
+            </a>
           </div>
         </div>
       </section>
