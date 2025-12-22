@@ -46,12 +46,12 @@ export default function Home() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-            <a
-              href="/download"
+            <Link
+              to="/download"
               className="inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-orange-500 to-red-500 text-white font-black rounded-xl hover:shadow-2xl hover:shadow-orange-500/50 transition-all duration-300 transform hover:scale-105 whitespace-nowrap"
             >
               Download Now
-            </a>
+            </Link>
             <a
               href="https://wa.me/message/XMTA7ADWNLB2D1"
               target="_blank"
