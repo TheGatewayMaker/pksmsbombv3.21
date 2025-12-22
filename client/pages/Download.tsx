@@ -73,10 +73,9 @@ export default function DownloadPage() {
           </div>
 
           {/* Windows 11 */}
-          <div className="group bg-gradient-to-br from-slate-800/50 to-slate-900/50 rounded-3xl p-8 lg:p-10 border border-orange-500/30 hover:border-orange-500/70 transition-all duration-500 hover:shadow-2xl hover:shadow-orange-500/25 hover:-translate-y-2 overflow-hidden relative">
-            <div className="absolute inset-0 bg-gradient-to-br from-orange-500/0 via-transparent to-orange-500/0 group-hover:from-orange-500/5 group-hover:to-orange-500/5 transition-all duration-500 pointer-events-none"></div>
-            <div className="relative z-10 text-center">
-              <div className="text-6xl md:text-7xl mb-6 transform group-hover:scale-110 transition-transform duration-500">🖥️</div>
+          <div className="bg-gradient-to-br from-slate-800/40 to-slate-900/40 rounded-3xl p-8 lg:p-10 border border-orange-500/30 hover:border-orange-500/70 transition-all duration-300">
+            <div className="text-center">
+              <div className="text-6xl md:text-7xl mb-6">🖥️</div>
               <h3 className="text-2xl lg:text-3xl font-black text-slate-100 mb-3">
                 Windows 11
               </h3>
