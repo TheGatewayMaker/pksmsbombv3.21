@@ -1,17 +1,17 @@
-import './OperatorsSlider.css';
+import "./OperatorsSlider.css";
 
 export default function OperatorsSlider() {
   const operators = [
-    'JAZZ',
-    'WARID',
-    'UFONE',
-    'ZONG',
-    'JAZZ',
-    'WARID',
-    'UFONE',
-    'ZONG',
-    'JAZZ',
-    'WARID',
+    "JAZZ",
+    "WARID",
+    "UFONE",
+    "ZONG",
+    "JAZZ",
+    "WARID",
+    "UFONE",
+    "ZONG",
+    "JAZZ",
+    "WARID",
   ];
 
   return (
