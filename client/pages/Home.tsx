@@ -6,11 +6,11 @@ export default function Home() {
     <Layout>
       {/* Hero Section */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 md:py-20 lg:py-32">
-        <div className="flex flex-col lg:flex-row items-center gap-6 lg:gap-12">
+        <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-16">
           {/* Content and Image - Integrated Layout */}
           <div className="flex-1 min-w-0">
             <div className="flex flex-col items-center lg:items-start">
-              <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-8xl font-black text-slate-100 leading-tight text-center lg:text-left max-w-sm lg:max-w-xl">
+              <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-8xl font-black text-slate-100 leading-tight text-center lg:text-left">
                 Pakistan's First
                 <span className="block bg-gradient-to-r from-orange-400 via-red-500 to-orange-400 bg-clip-text text-transparent">
                   SMS Spammer
@@ -21,8 +21,8 @@ export default function Home() {
           </div>
 
           {/* Pumpkin Image - Integrated with Text */}
-          <div className="w-full lg:w-auto flex justify-center lg:justify-end lg:mt-12">
-            <div className="w-64 md:w-80 lg:w-[24rem] xl:w-[28rem]">
+          <div className="w-full lg:w-auto flex flex-col items-center lg:items-end lg:mt-12 flex-shrink-0">
+            <div className="w-56 md:w-72 lg:w-80 xl:w-96">
               <img
                 src="https://cdn.builder.io/api/v1/image/assets%2F5aae9acb8c5d450e964b76328688b687%2Fa80312c5d1854423ae670c9e53b58958?format=webp&width=800"
                 alt="SMS Bomber Pumpkin"
@@ -32,6 +32,7 @@ export default function Home() {
                 }}
               />
             </div>
+            <p className="mt-6 text-center text-sm sm:text-base font-black text-orange-400">PK-SMS-BOMB-V3.2</p>
           </div>
         </div>
 
