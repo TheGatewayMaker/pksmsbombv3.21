@@ -86,39 +86,39 @@ export default function PricingPage() {
           {pricingTiers.map((tier, index) => (
             <div
               key={index}
-              className={`rounded-3xl border transition-all duration-300 p-8 lg:p-10 ${
+              className={`rounded-3xl border transition-all duration-300 p-6 sm:p-8 lg:p-10 relative ${
                 tier.popular
                   ? "border-orange-500 bg-gradient-to-br from-orange-500/20 to-red-500/20 md:scale-105"
                   : "border-orange-500/30 bg-gradient-to-br from-slate-800/40 to-slate-900/40 hover:border-orange-500/70"
               }`}
             >
               {tier.popular && (
-                <div className="absolute -top-5 left-1/2 transform -translate-x-1/2 z-20">
-                  <span className="bg-gradient-to-r from-orange-500 to-red-500 text-white px-6 py-2 rounded-full text-sm lg:text-base font-black">
+                <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 z-20">
+                  <span className="bg-gradient-to-r from-orange-500 to-red-500 text-white px-4 sm:px-6 py-2 rounded-full text-xs sm:text-sm lg:text-base font-black">
                     Most Popular
                   </span>
                 </div>
               )}
 
-              <div>
-                <h3 className="text-2xl lg:text-3xl font-black text-slate-100 mb-3">
+              <div className="flex flex-col h-full">
+                <h3 className="text-xl sm:text-2xl lg:text-3xl font-black text-slate-100 mb-3">
                   {tier.count.toLocaleString()} SMS
                 </h3>
 
                 <div className="mb-8">
-                  <div className="text-4xl lg:text-5xl font-black text-orange-400">
+                  <div className="text-3xl sm:text-4xl lg:text-5xl font-black text-orange-400">
                     {tier.price.toLocaleString()} PKR
                   </div>
-                  <p className="text-slate-300 text-base lg:text-lg mt-3 font-semibold">
+                  <p className="text-slate-300 text-sm sm:text-base lg:text-lg mt-3 font-semibold">
                     {tier.perSms} PKR per SMS
                   </p>
                 </div>
 
-                <ul className="space-y-4 mb-10">
+                <ul className="space-y-3 sm:space-y-4 mb-8 sm:mb-10 flex-grow">
                   {tier.features.map((feature, featureIdx) => (
-                    <li key={featureIdx} className="flex items-start gap-3">
-                      <Check className="w-5 lg:w-6 h-5 lg:h-6 text-orange-400 flex-shrink-0 mt-1 font-black" />
-                      <span className="text-slate-300 font-medium text-sm lg:text-base">
+                    <li key={featureIdx} className="flex items-start gap-2 sm:gap-3">
+                      <Check className="w-4 sm:w-5 lg:w-6 h-4 sm:h-5 lg:h-6 text-orange-400 flex-shrink-0 mt-1 font-black" />
+                      <span className="text-slate-300 font-medium text-xs sm:text-sm lg:text-base">
                         {feature}
                       </span>
                     </li>
@@ -129,14 +129,14 @@ export default function PricingPage() {
                   href="https://wa.me/message/XMTA7ADWNLB2D1"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className={`w-full inline-flex items-center justify-center px-6 lg:px-8 py-4 font-black text-base lg:text-lg rounded-xl transition-all transform hover:scale-105 whitespace-nowrap ${
+                  className={`w-full inline-flex items-center justify-center px-4 sm:px-6 lg:px-8 py-3 sm:py-4 font-black text-sm sm:text-base lg:text-lg rounded-xl transition-all transform hover:scale-105 whitespace-nowrap ${
                     tier.popular
                       ? "bg-gradient-to-r from-orange-500 to-red-500 text-white hover:shadow-xl hover:shadow-orange-500/50"
                       : "border-2 border-orange-500 text-orange-400 hover:bg-orange-500/15"
                   }`}
                 >
                   Get {tier.count} SMS
-                  <ExternalLink className="ml-2 lg:ml-3 w-4 lg:w-5 h-4 lg:h-5" />
+                  <ExternalLink className="ml-2 lg:ml-3 w-4 h-4" />
                 </a>
               </div>
             </div>
