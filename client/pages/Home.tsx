@@ -219,10 +219,10 @@ export default function Home() {
               href="https://wa.me/message/XMTA7ADWNLB2D1"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-orange-500 to-red-500 text-white font-black text-lg rounded-xl hover:shadow-xl hover:shadow-orange-500/50 transition-all"
+              className="inline-flex items-center justify-center px-6 lg:px-8 py-4 bg-gradient-to-r from-orange-500 to-red-500 text-white font-black text-sm lg:text-base rounded-xl hover:shadow-xl hover:shadow-orange-500/50 transition-all whitespace-nowrap"
             >
-              Contact us on WhatsApp
-              <ExternalLink className="ml-3 w-5 h-5" />
+              Contact WhatsApp
+              <ExternalLink className="ml-2 lg:ml-3 w-4 lg:w-5 h-4 lg:h-5" />
             </a>
           </div>
         </div>
