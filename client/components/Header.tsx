@@ -11,7 +11,7 @@ export default function Header() {
           <img
             src="https://cdn.builder.io/api/v1/image/assets%2F21e53940686840dfab4f5a6e4a2a1205%2F0bf09163b43040bf9014564502559b38?format=webp&width=100"
             alt="SMS Bomber"
-            className="h-12 w-12"
+            className="h-12 w-12 drop-shadow-lg"
           />
           <div className="text-3xl font-black bg-gradient-to-r from-orange-400 via-red-500 to-orange-400 bg-clip-text text-transparent">
             SMS Bomber
