@@ -8,19 +8,16 @@ export default function Home() {
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 md:py-20 lg:py-32">
         <div className="flex flex-col lg:flex-row items-center gap-6 lg:gap-12">
           {/* Content and Image - Integrated Layout */}
-          <div className="flex-1">
+          <div className="flex-1 min-w-0">
             <div className="flex flex-col items-center lg:items-start">
-              <h1 className="text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-black text-slate-100 leading-tight text-center lg:text-left">
-                Pakistan's First
-                <span className="block bg-gradient-to-r from-orange-400 via-red-500 to-orange-400 bg-clip-text text-transparent">
-                  SMS Spammer Tool
-                </span>
+              <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-7xl font-black text-slate-100 leading-none md:leading-tight text-center lg:text-left max-w-2xl">
+                Pakistan's First<span className="block bg-gradient-to-r from-orange-400 via-red-500 to-orange-400 bg-clip-text text-transparent">SMS Spammer Tool</span>
               </h1>
             </div>
           </div>
 
           {/* Pumpkin Image - Integrated with Text */}
-          <div className="w-full lg:w-auto flex justify-center lg:justify-end">
+          <div className="w-full lg:w-auto flex justify-center lg:justify-end lg:mt-12">
             <div className="w-72 md:w-96 lg:w-[28rem] xl:w-[32rem]">
               <img
                 src="https://cdn.builder.io/api/v1/image/assets%2F5aae9acb8c5d450e964b76328688b687%2Fa80312c5d1854423ae670c9e53b58958?format=webp&width=800"
