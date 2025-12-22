@@ -1,5 +1,6 @@
 import Layout from "@/components/Layout";
 import { ExternalLink } from "lucide-react";
+import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
