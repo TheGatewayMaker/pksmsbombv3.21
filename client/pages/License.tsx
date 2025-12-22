@@ -113,12 +113,12 @@ export default function LicensePage() {
         </div>
 
         {/* CTA Section */}
-        <div className="bg-gradient-to-r from-orange-600 to-red-600 rounded-2xl p-12 text-center mb-20">
-          <h2 className="text-5xl md:text-6xl font-black text-white mb-8">
+        <div className="bg-gradient-to-r from-orange-600 to-red-600 rounded-3xl p-10 lg:p-12 text-center mb-20 shadow-xl shadow-orange-600/50 hover:shadow-2xl hover:shadow-orange-600/60 transition-all duration-500">
+          <h2 className="text-4xl md:text-5xl lg:text-6xl font-black text-white mb-6 lg:mb-8">
             Ready to Get Your License?
           </h2>
 
-          <p className="text-white/95 mb-10 max-w-3xl mx-auto text-xl font-semibold leading-relaxed">
+          <p className="text-white/95 mb-8 lg:mb-10 max-w-3xl mx-auto text-base md:text-lg lg:text-xl font-medium leading-relaxed">
             Contact us on WhatsApp to purchase your license key. We'll activate
             it for you immediately after payment confirmation.
           </p>
