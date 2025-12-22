@@ -256,12 +256,12 @@ export default function Home() {
             Download our tool today and start pranking your friends with
             unlimited SMS messages. It's easy, secure, and completely anonymous.
           </p>
-          <a
-            href="/download"
+          <Link
+            to="/download"
             className="inline-flex items-center justify-center px-8 lg:px-12 py-4 lg:py-5 bg-white text-orange-600 font-black text-sm lg:text-lg rounded-xl hover:shadow-2xl transition-all transform hover:scale-105 whitespace-nowrap"
           >
             Download Now
-          </a>
+          </Link>
         </div>
       </section>
 
