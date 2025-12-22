@@ -47,9 +47,9 @@ export default function Home() {
             <div className="relative w-full max-w-md">
               <div className="absolute inset-0 bg-gradient-to-r from-orange-500/20 to-red-500/20 rounded-3xl blur-3xl"></div>
               <img
-                src="https://cdn.builder.io/api/v1/image/assets%2F21782784306240369f0bf06000b72d16%2Ff4f348fae6094dc0834e5d8836b622a0?format=webp&width=800"
+                src="https://cdn.builder.io/api/v1/image/assets%2F21782784306240369f0bf06000b72d16%2F55759bbe1b394328a855e8d52c024695?format=webp&width=800"
                 alt="SMS Bomber Pumpkin"
-                className="relative w-full h-auto drop-shadow-2xl transform transition-transform duration-500 hover:scale-110 hover:-rotate-3 cursor-pointer filter drop-shadow-lg"
+                className="relative w-full h-auto drop-shadow-2xl"
                 style={{
                   filter: 'drop-shadow(0 25px 50px rgba(249, 115, 22, 0.3))',
                 }}
