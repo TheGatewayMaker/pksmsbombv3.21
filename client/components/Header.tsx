@@ -15,35 +15,35 @@ export default function Header() {
           </div>
         </Link>
         
-        <ul className="flex items-center gap-8 text-sm font-medium">
+        <ul className="flex items-center gap-8 text-base font-semibold">
           <li>
-            <Link 
-              to="/" 
-              className="text-foreground hover:text-primary transition-colors"
+            <Link
+              to="/"
+              className="text-slate-200 hover:text-orange-400 transition-colors duration-200"
             >
               Home
             </Link>
           </li>
           <li>
-            <Link 
-              to="/download" 
-              className="text-foreground hover:text-primary transition-colors"
+            <Link
+              to="/download"
+              className="text-slate-200 hover:text-orange-400 transition-colors duration-200"
             >
               Download
             </Link>
           </li>
           <li>
-            <Link 
-              to="/pricing" 
-              className="text-foreground hover:text-primary transition-colors"
+            <Link
+              to="/pricing"
+              className="text-slate-200 hover:text-orange-400 transition-colors duration-200"
             >
               Pricing
             </Link>
           </li>
           <li>
-            <Link 
-              to="/license" 
-              className="text-foreground hover:text-primary transition-colors"
+            <Link
+              to="/license"
+              className="text-slate-200 hover:text-orange-400 transition-colors duration-200"
             >
               License
             </Link>
