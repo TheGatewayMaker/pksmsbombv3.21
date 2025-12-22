@@ -71,43 +71,55 @@ export default function Home() {
             Why Choose Us?
           </h2>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
             {/* Feature 1 */}
-            <div className="bg-gradient-to-br from-slate-800/40 to-slate-900/40 rounded-2xl p-10 border border-orange-500/30 hover:border-orange-500/60 transition-all duration-300 hover:shadow-xl hover:shadow-orange-500/10">
-              <div className="text-6xl mb-6">⚡</div>
-              <h3 className="text-3xl font-black text-slate-100 mb-5">
-                Windows Compatible
-              </h3>
-              <p className="text-xl text-slate-300 leading-relaxed font-semibold">
-                Automated SMS Bomber works for both Windows 10 & 11 with minimal
-                internet required. Fast, reliable, and optimized for
-                performance.
-              </p>
+            <div className="group relative bg-gradient-to-br from-slate-800/50 to-slate-900/50 rounded-3xl p-8 lg:p-10 border border-orange-500/20 hover:border-orange-500/80 transition-all duration-500 hover:shadow-2xl hover:shadow-orange-500/30 overflow-hidden">
+              <div className="absolute inset-0 bg-gradient-to-br from-orange-500/0 via-transparent to-orange-500/0 group-hover:from-orange-500/10 group-hover:to-orange-500/5 transition-all duration-500"></div>
+              <div className="absolute -top-20 -right-20 w-40 h-40 bg-orange-500/20 rounded-full blur-2xl group-hover:scale-150 transition-transform duration-500"></div>
+              <div className="relative z-10">
+                <div className="text-7xl mb-6 transform group-hover:scale-125 group-hover:-rotate-12 transition-transform duration-500">⚡</div>
+                <h3 className="text-2xl lg:text-3xl font-black text-slate-100 mb-4">
+                  Windows Compatible
+                </h3>
+                <p className="text-lg text-slate-300 leading-relaxed font-medium">
+                  Automated SMS Bomber works for both Windows 10 & 11 with minimal
+                  internet required. Fast, reliable, and optimized for
+                  performance.
+                </p>
+              </div>
             </div>
 
             {/* Feature 2 */}
-            <div className="bg-gradient-to-br from-slate-800/40 to-slate-900/40 rounded-2xl p-10 border border-orange-500/30 hover:border-orange-500/60 transition-all duration-300 hover:shadow-xl hover:shadow-orange-500/10">
-              <div className="text-6xl mb-6">📱</div>
-              <h3 className="text-3xl font-black text-slate-100 mb-5">
-                All Operators Supported
-              </h3>
-              <p className="text-xl text-slate-300 leading-relaxed font-semibold">
-                Our SMS Spammer Tool supports all major operators: JAZZ, WARID,
-                UFONE & ZONG. Works with any carrier in Pakistan.
-              </p>
+            <div className="group relative bg-gradient-to-br from-slate-800/50 to-slate-900/50 rounded-3xl p-8 lg:p-10 border border-orange-500/20 hover:border-orange-500/80 transition-all duration-500 hover:shadow-2xl hover:shadow-orange-500/30 overflow-hidden">
+              <div className="absolute inset-0 bg-gradient-to-br from-orange-500/0 via-transparent to-orange-500/0 group-hover:from-orange-500/10 group-hover:to-orange-500/5 transition-all duration-500"></div>
+              <div className="absolute -top-20 -right-20 w-40 h-40 bg-orange-500/20 rounded-full blur-2xl group-hover:scale-150 transition-transform duration-500"></div>
+              <div className="relative z-10">
+                <div className="text-7xl mb-6 transform group-hover:scale-125 group-hover:-rotate-12 transition-transform duration-500">📱</div>
+                <h3 className="text-2xl lg:text-3xl font-black text-slate-100 mb-4">
+                  All Operators Supported
+                </h3>
+                <p className="text-lg text-slate-300 leading-relaxed font-medium">
+                  Our SMS Spammer Tool supports all major operators: JAZZ, WARID,
+                  UFONE & ZONG. Works with any carrier in Pakistan.
+                </p>
+              </div>
             </div>
 
             {/* Feature 3 */}
-            <div className="bg-gradient-to-br from-slate-800/40 to-slate-900/40 rounded-2xl p-10 border border-orange-500/30 hover:border-orange-500/60 transition-all duration-300 hover:shadow-xl hover:shadow-orange-500/10">
-              <div className="text-6xl mb-6">🔒</div>
-              <h3 className="text-3xl font-black text-slate-100 mb-5">
-                Completely Anonymous
-              </h3>
-              <p className="text-xl text-slate-300 leading-relaxed font-semibold">
-                Our tool is entirely anonymous, keeping your IP hidden using
-                auto TOR & proxies to bypass limitations. Your privacy is
-                guaranteed.
-              </p>
+            <div className="group relative bg-gradient-to-br from-slate-800/50 to-slate-900/50 rounded-3xl p-8 lg:p-10 border border-orange-500/20 hover:border-orange-500/80 transition-all duration-500 hover:shadow-2xl hover:shadow-orange-500/30 overflow-hidden">
+              <div className="absolute inset-0 bg-gradient-to-br from-orange-500/0 via-transparent to-orange-500/0 group-hover:from-orange-500/10 group-hover:to-orange-500/5 transition-all duration-500"></div>
+              <div className="absolute -top-20 -right-20 w-40 h-40 bg-orange-500/20 rounded-full blur-2xl group-hover:scale-150 transition-transform duration-500"></div>
+              <div className="relative z-10">
+                <div className="text-7xl mb-6 transform group-hover:scale-125 group-hover:-rotate-12 transition-transform duration-500">🔒</div>
+                <h3 className="text-2xl lg:text-3xl font-black text-slate-100 mb-4">
+                  Completely Anonymous
+                </h3>
+                <p className="text-lg text-slate-300 leading-relaxed font-medium">
+                  Our tool is entirely anonymous, keeping your IP hidden using
+                  auto TOR & proxies to bypass limitations. Your privacy is
+                  guaranteed.
+                </p>
+              </div>
             </div>
           </div>
         </div>
