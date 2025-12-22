@@ -61,10 +61,10 @@ export default function DownloadPage() {
               </p>
               <button
                 onClick={() => handleDownload("Windows-10")}
-                className="inline-flex items-center justify-center w-full px-8 py-4 bg-gradient-to-r from-orange-500 to-red-500 text-white font-black text-lg rounded-xl hover:shadow-lg hover:shadow-orange-500/50 transition-all transform hover:scale-105"
+                className="inline-flex items-center justify-center w-full px-6 lg:px-8 py-4 bg-gradient-to-r from-orange-500 to-red-500 text-white font-black text-sm lg:text-base rounded-xl hover:shadow-lg hover:shadow-orange-500/50 transition-all transform hover:scale-105 whitespace-nowrap"
               >
-                <Download className="w-6 h-6 mr-3" />
-                Download for Windows 10
+                <Download className="w-5 lg:w-6 h-5 lg:h-6 mr-2 lg:mr-3" />
+                Windows 10
               </button>
               <p className="text-xs text-slate-400 mt-6 font-semibold">
                 File size: ~25 MB
