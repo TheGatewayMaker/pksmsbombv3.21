@@ -17,17 +17,17 @@ export default function DownloadPage() {
 
   return (
     <Layout>
-      <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
+      <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-24">
         {/* Header */}
-        <div className="text-center mb-24">
-          <h1 className="text-7xl md:text-8xl font-black text-slate-100 mb-6 leading-tight">
+        <div className="text-center mb-20 lg:mb-24">
+          <h1 className="text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-black text-slate-100 mb-6 leading-tight">
             Thank You For
             <span className="block bg-gradient-to-r from-orange-400 via-red-500 to-orange-400 bg-clip-text text-transparent">
               Downloading
             </span>
           </h1>
 
-          <p className="text-2xl text-slate-300 mt-8 font-semibold">
+          <p className="text-base md:text-lg lg:text-xl text-slate-300 mt-8 font-medium">
             Download for your compatible Windows version below
           </p>
         </div>
