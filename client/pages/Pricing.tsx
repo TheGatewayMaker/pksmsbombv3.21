@@ -165,40 +165,40 @@ export default function PricingPage() {
         </div>
 
         {/* Payment Information */}
-        <div className="bg-gradient-to-br from-slate-800/60 to-slate-900/60 rounded-2xl p-12 border border-orange-500/30 mb-20">
-          <h2 className="text-4xl font-black text-slate-100 mb-12">
+        <div className="bg-gradient-to-br from-slate-800/60 to-slate-900/60 rounded-2xl p-8 sm:p-12 border border-orange-500/30 mb-20">
+          <h2 className="text-3xl sm:text-4xl font-black text-slate-100 mb-8 sm:mb-12">
             How to Purchase
           </h2>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
-            <div>
-              <div className="text-5xl font-black text-orange-400 mb-6">1</div>
-              <h3 className="font-black text-slate-100 mb-4 text-2xl">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 sm:gap-10">
+            <div className="text-center md:text-left">
+              <div className="text-4xl sm:text-5xl font-black text-orange-400 mb-4 sm:mb-6">1</div>
+              <h3 className="font-black text-slate-100 mb-3 sm:mb-4 text-xl sm:text-2xl">
                 Choose Your Package
               </h3>
-              <p className="text-slate-300 text-lg font-semibold leading-relaxed">
+              <p className="text-slate-300 text-sm sm:text-base lg:text-lg font-semibold leading-relaxed">
                 Select the SMS count that fits your needs. Can't find what you
                 want? Contact us for custom packages.
               </p>
             </div>
 
-            <div>
-              <div className="text-5xl font-black text-orange-400 mb-6">2</div>
-              <h3 className="font-black text-slate-100 mb-4 text-2xl">
+            <div className="text-center md:text-left">
+              <div className="text-4xl sm:text-5xl font-black text-orange-400 mb-4 sm:mb-6">2</div>
+              <h3 className="font-black text-slate-100 mb-3 sm:mb-4 text-xl sm:text-2xl">
                 Contact & Pay
               </h3>
-              <p className="text-slate-300 text-lg font-semibold leading-relaxed">
+              <p className="text-slate-300 text-sm sm:text-base lg:text-lg font-semibold leading-relaxed">
                 Reach out to us on WhatsApp and complete the payment. We accept
                 multiple payment methods for your convenience.
               </p>
             </div>
 
-            <div>
-              <div className="text-5xl font-black text-orange-400 mb-6">3</div>
-              <h3 className="font-black text-slate-100 mb-4 text-2xl">
+            <div className="text-center md:text-left">
+              <div className="text-4xl sm:text-5xl font-black text-orange-400 mb-4 sm:mb-6">3</div>
+              <h3 className="font-black text-slate-100 mb-3 sm:mb-4 text-xl sm:text-2xl">
                 Get Activated
               </h3>
-              <p className="text-slate-300 text-lg font-semibold leading-relaxed">
+              <p className="text-slate-300 text-sm sm:text-base lg:text-lg font-semibold leading-relaxed">
                 Your SMS package is activated immediately after payment
                 confirmation. Start using the tool right away!
               </p>
