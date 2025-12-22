@@ -14,7 +14,7 @@ export default function Header() {
             className="h-10 sm:h-12 w-10 sm:w-12 drop-shadow-lg"
           />
           <div className="text-xl sm:text-2xl lg:text-3xl font-black bg-gradient-to-r from-orange-400 via-red-500 to-orange-400 bg-clip-text text-transparent">
-            SMS Bomber
+            Pk Sms Bomb
           </div>
         </Link>
 
