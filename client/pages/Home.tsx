@@ -25,7 +25,7 @@ export default function Home() {
           <div className="w-full lg:w-auto flex flex-col items-center lg:items-end lg:mt-12 flex-shrink-0">
             <div className="w-56 md:w-72 lg:w-80 xl:w-96">
               <img
-                src="https://cdn.builder.io/api/v1/image/assets%2F5aae9acb8c5d450e964b76328688b687%2Fa80312c5d1854423ae670c9e53b58958?format=webp&width=800"
+                src="https://i.ibb.co/nsKhps1B/assets-5aae9acb8c5d450e964b76328688b687-a80312c5d1854423ae670c9e53b58958.webp"
                 alt="SMS Bomber Pumpkin"
                 className="w-full h-auto drop-shadow-2xl"
                 style={{
